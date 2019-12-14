@@ -1,0 +1,25 @@
+{
+    "name": "pokemon-font",
+    "version": "1.0.0",
+    "description": "Pokémon SVG Icon Webfont",
+    "main": "index.js",
+    "scripts": {
+        "generate": "icon-font-generator icons/*.svg -o dist -n PokemonSVGIconWebfont -f ./dist/webfonts --csspath ./dist/css/pokemon-iconfont.css --cssfontsurl ../webfonts -p pkmn --selector .pkmn",
+        "serve": "http-server ./dist -p 8080 -o",
+        "start": "npm run generate && npm run serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Teddy95/pokemon-font.git"
+    },
+    "author": "Andre Sieverding",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Teddy95/pokemon-font/issues"
+    },
+    "homepage": "https://github.com/Teddy95/pokemon-font#readme",
+    "dependencies": {
+        "http-server": "^0.12.0",
+        "icon-font-generator": "^2.1.10"
+    }
+}

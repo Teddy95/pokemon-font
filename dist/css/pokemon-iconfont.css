@@ -1,0 +1,3626 @@
+@font-face {
+    font-family: "PokemonSVGIconWebfont";
+    src: url("../webfonts/PokemonSVGIconWebfont.eot?631a43109f7ad64683d0794263b8475b?#iefix") format("embedded-opentype"),
+url("../webfonts/PokemonSVGIconWebfont.woff2?631a43109f7ad64683d0794263b8475b") format("woff2"),
+url("../webfonts/PokemonSVGIconWebfont.woff?631a43109f7ad64683d0794263b8475b") format("woff"),
+url("../webfonts/PokemonSVGIconWebfont.ttf?631a43109f7ad64683d0794263b8475b") format("truetype"),
+url("../webfonts/PokemonSVGIconWebfont.svg?631a43109f7ad64683d0794263b8475b#PokemonSVGIconWebfont") format("svg");
+}
+
+.pkmn:before {
+    font-family: PokemonSVGIconWebfont !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pkmn.pkmn-001-bulbasaur-shiny:before {
+    content: "\f101";
+}
+.pkmn.pkmn-001-bulbasaur:before {
+    content: "\f102";
+}
+.pkmn.pkmn-002-ivysaur-shiny:before {
+    content: "\f103";
+}
+.pkmn.pkmn-002-ivysaur:before {
+    content: "\f104";
+}
+.pkmn.pkmn-003-venusaur-shiny:before {
+    content: "\f105";
+}
+.pkmn.pkmn-003-venusaur:before {
+    content: "\f106";
+}
+.pkmn.pkmn-004-charmander-shiny:before {
+    content: "\f107";
+}
+.pkmn.pkmn-004-charmander:before {
+    content: "\f108";
+}
+.pkmn.pkmn-005-charmeleon-shiny:before {
+    content: "\f109";
+}
+.pkmn.pkmn-005-charmeleon:before {
+    content: "\f10a";
+}
+.pkmn.pkmn-006-charizard-shiny:before {
+    content: "\f10b";
+}
+.pkmn.pkmn-006-charizard:before {
+    content: "\f10c";
+}
+.pkmn.pkmn-007-squirtle-shiny:before {
+    content: "\f10d";
+}
+.pkmn.pkmn-007-squirtle:before {
+    content: "\f10e";
+}
+.pkmn.pkmn-008-wartortle-shiny:before {
+    content: "\f10f";
+}
+.pkmn.pkmn-008-wartortle:before {
+    content: "\f110";
+}
+.pkmn.pkmn-009-blastoise-shiny:before {
+    content: "\f111";
+}
+.pkmn.pkmn-009-blastoise:before {
+    content: "\f112";
+}
+.pkmn.pkmn-010-caterpie-shiny:before {
+    content: "\f113";
+}
+.pkmn.pkmn-010-caterpie:before {
+    content: "\f114";
+}
+.pkmn.pkmn-011-metapod-shiny:before {
+    content: "\f115";
+}
+.pkmn.pkmn-011-metapod:before {
+    content: "\f116";
+}
+.pkmn.pkmn-012-butterfree-shiny:before {
+    content: "\f117";
+}
+.pkmn.pkmn-012-butterfree:before {
+    content: "\f118";
+}
+.pkmn.pkmn-013-weedle-shiny:before {
+    content: "\f119";
+}
+.pkmn.pkmn-013-weedle:before {
+    content: "\f11a";
+}
+.pkmn.pkmn-014-kakuna-shiny:before {
+    content: "\f11b";
+}
+.pkmn.pkmn-014-kakuna:before {
+    content: "\f11c";
+}
+.pkmn.pkmn-015-beedrill-shiny:before {
+    content: "\f11d";
+}
+.pkmn.pkmn-015-beedrill:before {
+    content: "\f11e";
+}
+.pkmn.pkmn-016-pidgey-shiny:before {
+    content: "\f11f";
+}
+.pkmn.pkmn-016-pidgey:before {
+    content: "\f120";
+}
+.pkmn.pkmn-017-pidgeotto-shiny:before {
+    content: "\f121";
+}
+.pkmn.pkmn-017-pidgeotto:before {
+    content: "\f122";
+}
+.pkmn.pkmn-018-pidgeot-shiny:before {
+    content: "\f123";
+}
+.pkmn.pkmn-018-pidgeot:before {
+    content: "\f124";
+}
+.pkmn.pkmn-019-rattata-alola-shiny:before {
+    content: "\f125";
+}
+.pkmn.pkmn-019-rattata-alola:before {
+    content: "\f126";
+}
+.pkmn.pkmn-019-rattata-shiny:before {
+    content: "\f127";
+}
+.pkmn.pkmn-019-rattata:before {
+    content: "\f128";
+}
+.pkmn.pkmn-020-raticate-alola-shiny:before {
+    content: "\f129";
+}
+.pkmn.pkmn-020-raticate-alola:before {
+    content: "\f12a";
+}
+.pkmn.pkmn-020-raticate-shiny:before {
+    content: "\f12b";
+}
+.pkmn.pkmn-020-raticate:before {
+    content: "\f12c";
+}
+.pkmn.pkmn-021-spearow-shiny:before {
+    content: "\f12d";
+}
+.pkmn.pkmn-021-spearow:before {
+    content: "\f12e";
+}
+.pkmn.pkmn-022-fearow-shiny:before {
+    content: "\f12f";
+}
+.pkmn.pkmn-022-fearow:before {
+    content: "\f130";
+}
+.pkmn.pkmn-023-ekans-shiny:before {
+    content: "\f131";
+}
+.pkmn.pkmn-023-ekans:before {
+    content: "\f132";
+}
+.pkmn.pkmn-024-arbok-shiny:before {
+    content: "\f133";
+}
+.pkmn.pkmn-024-arbok:before {
+    content: "\f134";
+}
+.pkmn.pkmn-025-pikachu-shiny:before {
+    content: "\f135";
+}
+.pkmn.pkmn-025-pikachu:before {
+    content: "\f136";
+}
+.pkmn.pkmn-026-raichu-alola-shiny:before {
+    content: "\f137";
+}
+.pkmn.pkmn-026-raichu-alola:before {
+    content: "\f138";
+}
+.pkmn.pkmn-026-raichu-shiny:before {
+    content: "\f139";
+}
+.pkmn.pkmn-026-raichu:before {
+    content: "\f13a";
+}
+.pkmn.pkmn-027-sandshrew-alola-shiny:before {
+    content: "\f13b";
+}
+.pkmn.pkmn-027-sandshrew-alola:before {
+    content: "\f13c";
+}
+.pkmn.pkmn-027-sandshrew-shiny:before {
+    content: "\f13d";
+}
+.pkmn.pkmn-027-sandshrew:before {
+    content: "\f13e";
+}
+.pkmn.pkmn-028-sandslash-alola-shiny:before {
+    content: "\f13f";
+}
+.pkmn.pkmn-028-sandslash-alola:before {
+    content: "\f140";
+}
+.pkmn.pkmn-028-sandslash-shiny:before {
+    content: "\f141";
+}
+.pkmn.pkmn-028-sandslash:before {
+    content: "\f142";
+}
+.pkmn.pkmn-029-nidoran-f-shiny:before {
+    content: "\f143";
+}
+.pkmn.pkmn-029-nidoran-f:before {
+    content: "\f144";
+}
+.pkmn.pkmn-030-nidorina-shiny:before {
+    content: "\f145";
+}
+.pkmn.pkmn-030-nidorina:before {
+    content: "\f146";
+}
+.pkmn.pkmn-031-nidoqueen-shiny:before {
+    content: "\f147";
+}
+.pkmn.pkmn-031-nidoqueen:before {
+    content: "\f148";
+}
+.pkmn.pkmn-032-nidoran-m-shiny:before {
+    content: "\f149";
+}
+.pkmn.pkmn-032-nidoran-m:before {
+    content: "\f14a";
+}
+.pkmn.pkmn-033-nidorino-shiny:before {
+    content: "\f14b";
+}
+.pkmn.pkmn-033-nidorino:before {
+    content: "\f14c";
+}
+.pkmn.pkmn-034-nidoking-shiny:before {
+    content: "\f14d";
+}
+.pkmn.pkmn-034-nidoking:before {
+    content: "\f14e";
+}
+.pkmn.pkmn-035-clefairy-shiny:before {
+    content: "\f14f";
+}
+.pkmn.pkmn-035-clefairy:before {
+    content: "\f150";
+}
+.pkmn.pkmn-036-clefable-shiny:before {
+    content: "\f151";
+}
+.pkmn.pkmn-036-clefable:before {
+    content: "\f152";
+}
+.pkmn.pkmn-037-vulpix-alola-shiny:before {
+    content: "\f153";
+}
+.pkmn.pkmn-037-vulpix-alola:before {
+    content: "\f154";
+}
+.pkmn.pkmn-037-vulpix-shiny:before {
+    content: "\f155";
+}
+.pkmn.pkmn-037-vulpix:before {
+    content: "\f156";
+}
+.pkmn.pkmn-038-ninetales-alola-shiny:before {
+    content: "\f157";
+}
+.pkmn.pkmn-038-ninetales-alola:before {
+    content: "\f158";
+}
+.pkmn.pkmn-038-ninetales-shiny:before {
+    content: "\f159";
+}
+.pkmn.pkmn-038-ninetales:before {
+    content: "\f15a";
+}
+.pkmn.pkmn-039-jigglypuff-shiny:before {
+    content: "\f15b";
+}
+.pkmn.pkmn-039-jigglypuff:before {
+    content: "\f15c";
+}
+.pkmn.pkmn-040-wigglytuff-shiny:before {
+    content: "\f15d";
+}
+.pkmn.pkmn-040-wigglytuff:before {
+    content: "\f15e";
+}
+.pkmn.pkmn-041-zubat-shiny:before {
+    content: "\f15f";
+}
+.pkmn.pkmn-041-zubat:before {
+    content: "\f160";
+}
+.pkmn.pkmn-042-golbat-shiny:before {
+    content: "\f161";
+}
+.pkmn.pkmn-042-golbat:before {
+    content: "\f162";
+}
+.pkmn.pkmn-043-oddish-shiny:before {
+    content: "\f163";
+}
+.pkmn.pkmn-043-oddish:before {
+    content: "\f164";
+}
+.pkmn.pkmn-044-gloom-shiny:before {
+    content: "\f165";
+}
+.pkmn.pkmn-044-gloom:before {
+    content: "\f166";
+}
+.pkmn.pkmn-045-vileplume-shiny:before {
+    content: "\f167";
+}
+.pkmn.pkmn-045-vileplume:before {
+    content: "\f168";
+}
+.pkmn.pkmn-046-paras-shiny:before {
+    content: "\f169";
+}
+.pkmn.pkmn-046-paras:before {
+    content: "\f16a";
+}
+.pkmn.pkmn-047-parasect-shiny:before {
+    content: "\f16b";
+}
+.pkmn.pkmn-047-parasect:before {
+    content: "\f16c";
+}
+.pkmn.pkmn-048-venonat-shiny:before {
+    content: "\f16d";
+}
+.pkmn.pkmn-048-venonat:before {
+    content: "\f16e";
+}
+.pkmn.pkmn-049-venomoth-shiny:before {
+    content: "\f16f";
+}
+.pkmn.pkmn-049-venomoth:before {
+    content: "\f170";
+}
+.pkmn.pkmn-050-diglett-alola-shiny:before {
+    content: "\f171";
+}
+.pkmn.pkmn-050-diglett-alola:before {
+    content: "\f172";
+}
+.pkmn.pkmn-050-diglett-shiny:before {
+    content: "\f173";
+}
+.pkmn.pkmn-050-diglett:before {
+    content: "\f174";
+}
+.pkmn.pkmn-051-dugtrio-alola-shiny:before {
+    content: "\f175";
+}
+.pkmn.pkmn-051-dugtrio-alola:before {
+    content: "\f176";
+}
+.pkmn.pkmn-051-dugtrio-shiny:before {
+    content: "\f177";
+}
+.pkmn.pkmn-051-dugtrio:before {
+    content: "\f178";
+}
+.pkmn.pkmn-052-meowth-alola-shiny:before {
+    content: "\f179";
+}
+.pkmn.pkmn-052-meowth-alola:before {
+    content: "\f17a";
+}
+.pkmn.pkmn-052-meowth-shiny:before {
+    content: "\f17b";
+}
+.pkmn.pkmn-052-meowth:before {
+    content: "\f17c";
+}
+.pkmn.pkmn-053-persian-alola-shiny:before {
+    content: "\f17d";
+}
+.pkmn.pkmn-053-persian-alola:before {
+    content: "\f17e";
+}
+.pkmn.pkmn-053-persian-shiny:before {
+    content: "\f17f";
+}
+.pkmn.pkmn-053-persian:before {
+    content: "\f180";
+}
+.pkmn.pkmn-054-psyduck-shiny:before {
+    content: "\f181";
+}
+.pkmn.pkmn-054-psyduck:before {
+    content: "\f182";
+}
+.pkmn.pkmn-055-golduck-shiny:before {
+    content: "\f183";
+}
+.pkmn.pkmn-055-golduck:before {
+    content: "\f184";
+}
+.pkmn.pkmn-056-mankey-shiny:before {
+    content: "\f185";
+}
+.pkmn.pkmn-056-mankey:before {
+    content: "\f186";
+}
+.pkmn.pkmn-057-primeape-shiny:before {
+    content: "\f187";
+}
+.pkmn.pkmn-057-primeape:before {
+    content: "\f188";
+}
+.pkmn.pkmn-058-growlithe-shiny:before {
+    content: "\f189";
+}
+.pkmn.pkmn-058-growlithe:before {
+    content: "\f18a";
+}
+.pkmn.pkmn-059-arcanine-shiny:before {
+    content: "\f18b";
+}
+.pkmn.pkmn-059-arcanine:before {
+    content: "\f18c";
+}
+.pkmn.pkmn-060-poliwag-shiny:before {
+    content: "\f18d";
+}
+.pkmn.pkmn-060-poliwag:before {
+    content: "\f18e";
+}
+.pkmn.pkmn-061-poliwhirl-shiny:before {
+    content: "\f18f";
+}
+.pkmn.pkmn-061-poliwhirl:before {
+    content: "\f190";
+}
+.pkmn.pkmn-062-poliwrath-shiny:before {
+    content: "\f191";
+}
+.pkmn.pkmn-062-poliwrath:before {
+    content: "\f192";
+}
+.pkmn.pkmn-063-abra-shiny:before {
+    content: "\f193";
+}
+.pkmn.pkmn-063-abra:before {
+    content: "\f194";
+}
+.pkmn.pkmn-064-kadabra-shiny:before {
+    content: "\f195";
+}
+.pkmn.pkmn-064-kadabra:before {
+    content: "\f196";
+}
+.pkmn.pkmn-065-alakazam-shiny:before {
+    content: "\f197";
+}
+.pkmn.pkmn-065-alakazam:before {
+    content: "\f198";
+}
+.pkmn.pkmn-066-machop-shiny:before {
+    content: "\f199";
+}
+.pkmn.pkmn-066-machop:before {
+    content: "\f19a";
+}
+.pkmn.pkmn-067-machoke-shiny:before {
+    content: "\f19b";
+}
+.pkmn.pkmn-067-machoke:before {
+    content: "\f19c";
+}
+.pkmn.pkmn-068-machamp-shiny:before {
+    content: "\f19d";
+}
+.pkmn.pkmn-068-machamp:before {
+    content: "\f19e";
+}
+.pkmn.pkmn-069-bellsprout-shiny:before {
+    content: "\f19f";
+}
+.pkmn.pkmn-069-bellsprout:before {
+    content: "\f1a0";
+}
+.pkmn.pkmn-070-weepinbell-shiny:before {
+    content: "\f1a1";
+}
+.pkmn.pkmn-070-weepinbell:before {
+    content: "\f1a2";
+}
+.pkmn.pkmn-071-victreebel-shiny:before {
+    content: "\f1a3";
+}
+.pkmn.pkmn-071-victreebel:before {
+    content: "\f1a4";
+}
+.pkmn.pkmn-072-tentacool-shiny:before {
+    content: "\f1a5";
+}
+.pkmn.pkmn-072-tentacool:before {
+    content: "\f1a6";
+}
+.pkmn.pkmn-073-tentacruel-shiny:before {
+    content: "\f1a7";
+}
+.pkmn.pkmn-073-tentacruel:before {
+    content: "\f1a8";
+}
+.pkmn.pkmn-074-geodude-alola-shiny:before {
+    content: "\f1a9";
+}
+.pkmn.pkmn-074-geodude-alola:before {
+    content: "\f1aa";
+}
+.pkmn.pkmn-074-geodude-shiny:before {
+    content: "\f1ab";
+}
+.pkmn.pkmn-074-geodude:before {
+    content: "\f1ac";
+}
+.pkmn.pkmn-075-golem-alola-shiny:before {
+    content: "\f1ad";
+}
+.pkmn.pkmn-075-golem-alola:before {
+    content: "\f1ae";
+}
+.pkmn.pkmn-075-graveler-alola-shiny:before {
+    content: "\f1af";
+}
+.pkmn.pkmn-075-graveler-alola:before {
+    content: "\f1b0";
+}
+.pkmn.pkmn-075-graveler-shiny:before {
+    content: "\f1b1";
+}
+.pkmn.pkmn-075-graveler:before {
+    content: "\f1b2";
+}
+.pkmn.pkmn-076-golem-shiny:before {
+    content: "\f1b3";
+}
+.pkmn.pkmn-076-golem:before {
+    content: "\f1b4";
+}
+.pkmn.pkmn-077-ponyta-shiny:before {
+    content: "\f1b5";
+}
+.pkmn.pkmn-077-ponyta:before {
+    content: "\f1b6";
+}
+.pkmn.pkmn-078-rapidash-shiny:before {
+    content: "\f1b7";
+}
+.pkmn.pkmn-078-rapidash:before {
+    content: "\f1b8";
+}
+.pkmn.pkmn-079-slowpoke-shiny:before {
+    content: "\f1b9";
+}
+.pkmn.pkmn-079-slowpoke:before {
+    content: "\f1ba";
+}
+.pkmn.pkmn-080-slowbro-shiny:before {
+    content: "\f1bb";
+}
+.pkmn.pkmn-080-slowbro:before {
+    content: "\f1bc";
+}
+.pkmn.pkmn-081-magnemite-shiny:before {
+    content: "\f1bd";
+}
+.pkmn.pkmn-081-magnemite:before {
+    content: "\f1be";
+}
+.pkmn.pkmn-082-magneton-shiny:before {
+    content: "\f1bf";
+}
+.pkmn.pkmn-082-magneton:before {
+    content: "\f1c0";
+}
+.pkmn.pkmn-083-farfetchd-shiny:before {
+    content: "\f1c1";
+}
+.pkmn.pkmn-083-farfetchd:before {
+    content: "\f1c2";
+}
+.pkmn.pkmn-084-doduo-shiny:before {
+    content: "\f1c3";
+}
+.pkmn.pkmn-084-doduo:before {
+    content: "\f1c4";
+}
+.pkmn.pkmn-085-dodrio-shiny:before {
+    content: "\f1c5";
+}
+.pkmn.pkmn-085-dodrio:before {
+    content: "\f1c6";
+}
+.pkmn.pkmn-086-seel-shiny:before {
+    content: "\f1c7";
+}
+.pkmn.pkmn-086-seel:before {
+    content: "\f1c8";
+}
+.pkmn.pkmn-087-dewgong-shiny:before {
+    content: "\f1c9";
+}
+.pkmn.pkmn-087-dewgong:before {
+    content: "\f1ca";
+}
+.pkmn.pkmn-088-grimer-alola-shiny:before {
+    content: "\f1cb";
+}
+.pkmn.pkmn-088-grimer-alola:before {
+    content: "\f1cc";
+}
+.pkmn.pkmn-088-grimer-shiny:before {
+    content: "\f1cd";
+}
+.pkmn.pkmn-088-grimer:before {
+    content: "\f1ce";
+}
+.pkmn.pkmn-089-muk-alola-shiny:before {
+    content: "\f1cf";
+}
+.pkmn.pkmn-089-muk-alola:before {
+    content: "\f1d0";
+}
+.pkmn.pkmn-089-muk-shiny:before {
+    content: "\f1d1";
+}
+.pkmn.pkmn-089-muk:before {
+    content: "\f1d2";
+}
+.pkmn.pkmn-090-shellder-shiny:before {
+    content: "\f1d3";
+}
+.pkmn.pkmn-090-shellder:before {
+    content: "\f1d4";
+}
+.pkmn.pkmn-091-cloyster-shiny:before {
+    content: "\f1d5";
+}
+.pkmn.pkmn-091-cloyster:before {
+    content: "\f1d6";
+}
+.pkmn.pkmn-092-gastly-shiny:before {
+    content: "\f1d7";
+}
+.pkmn.pkmn-092-gastly:before {
+    content: "\f1d8";
+}
+.pkmn.pkmn-093-haunter-shiny:before {
+    content: "\f1d9";
+}
+.pkmn.pkmn-093-haunter:before {
+    content: "\f1da";
+}
+.pkmn.pkmn-094-gengar-shiny:before {
+    content: "\f1db";
+}
+.pkmn.pkmn-094-gengar:before {
+    content: "\f1dc";
+}
+.pkmn.pkmn-095-onix-shiny:before {
+    content: "\f1dd";
+}
+.pkmn.pkmn-095-onix:before {
+    content: "\f1de";
+}
+.pkmn.pkmn-096-drowzee-shiny:before {
+    content: "\f1df";
+}
+.pkmn.pkmn-096-drowzee:before {
+    content: "\f1e0";
+}
+.pkmn.pkmn-097-hypno-shiny:before {
+    content: "\f1e1";
+}
+.pkmn.pkmn-097-hypno:before {
+    content: "\f1e2";
+}
+.pkmn.pkmn-098-krabby-shiny:before {
+    content: "\f1e3";
+}
+.pkmn.pkmn-098-krabby:before {
+    content: "\f1e4";
+}
+.pkmn.pkmn-099-kingler-shiny:before {
+    content: "\f1e5";
+}
+.pkmn.pkmn-099-kingler:before {
+    content: "\f1e6";
+}
+.pkmn.pkmn-100-voltorb-shiny:before {
+    content: "\f1e7";
+}
+.pkmn.pkmn-100-voltorb:before {
+    content: "\f1e8";
+}
+.pkmn.pkmn-101-electrode-shiny:before {
+    content: "\f1e9";
+}
+.pkmn.pkmn-101-electrode:before {
+    content: "\f1ea";
+}
+.pkmn.pkmn-102-exeggcute-shiny:before {
+    content: "\f1eb";
+}
+.pkmn.pkmn-102-exeggcute:before {
+    content: "\f1ec";
+}
+.pkmn.pkmn-103-exeggutor-alola-shiny:before {
+    content: "\f1ed";
+}
+.pkmn.pkmn-103-exeggutor-alola:before {
+    content: "\f1ee";
+}
+.pkmn.pkmn-103-exeggutor-shiny:before {
+    content: "\f1ef";
+}
+.pkmn.pkmn-103-exeggutor:before {
+    content: "\f1f0";
+}
+.pkmn.pkmn-104-cubone-shiny:before {
+    content: "\f1f1";
+}
+.pkmn.pkmn-104-cubone:before {
+    content: "\f1f2";
+}
+.pkmn.pkmn-105-marowak-alola-shiny:before {
+    content: "\f1f3";
+}
+.pkmn.pkmn-105-marowak-alola:before {
+    content: "\f1f4";
+}
+.pkmn.pkmn-105-marowak-shiny:before {
+    content: "\f1f5";
+}
+.pkmn.pkmn-105-marowak:before {
+    content: "\f1f6";
+}
+.pkmn.pkmn-106-hitmonlee-shiny:before {
+    content: "\f1f7";
+}
+.pkmn.pkmn-106-hitmonlee:before {
+    content: "\f1f8";
+}
+.pkmn.pkmn-107-hitmonchan-shiny:before {
+    content: "\f1f9";
+}
+.pkmn.pkmn-107-hitmonchan:before {
+    content: "\f1fa";
+}
+.pkmn.pkmn-108-lickitung-shiny:before {
+    content: "\f1fb";
+}
+.pkmn.pkmn-108-lickitung:before {
+    content: "\f1fc";
+}
+.pkmn.pkmn-109-koffing-shiny:before {
+    content: "\f1fd";
+}
+.pkmn.pkmn-109-koffing:before {
+    content: "\f1fe";
+}
+.pkmn.pkmn-110-weezing-shiny:before {
+    content: "\f1ff";
+}
+.pkmn.pkmn-110-weezing:before {
+    content: "\f200";
+}
+.pkmn.pkmn-111-rhyhorn-shiny:before {
+    content: "\f201";
+}
+.pkmn.pkmn-111-rhyhorn:before {
+    content: "\f202";
+}
+.pkmn.pkmn-112-rhydon-shiny:before {
+    content: "\f203";
+}
+.pkmn.pkmn-112-rhydon:before {
+    content: "\f204";
+}
+.pkmn.pkmn-113-chansey-shiny:before {
+    content: "\f205";
+}
+.pkmn.pkmn-113-chansey:before {
+    content: "\f206";
+}
+.pkmn.pkmn-114-tangela-shiny:before {
+    content: "\f207";
+}
+.pkmn.pkmn-114-tangela:before {
+    content: "\f208";
+}
+.pkmn.pkmn-115-kangaskhan-shiny:before {
+    content: "\f209";
+}
+.pkmn.pkmn-115-kangaskhan:before {
+    content: "\f20a";
+}
+.pkmn.pkmn-116-horsea-shiny:before {
+    content: "\f20b";
+}
+.pkmn.pkmn-116-horsea:before {
+    content: "\f20c";
+}
+.pkmn.pkmn-117-seadra-shiny:before {
+    content: "\f20d";
+}
+.pkmn.pkmn-117-seadra:before {
+    content: "\f20e";
+}
+.pkmn.pkmn-118-goldeen-shiny:before {
+    content: "\f20f";
+}
+.pkmn.pkmn-118-goldeen:before {
+    content: "\f210";
+}
+.pkmn.pkmn-119-seaking-shiny:before {
+    content: "\f211";
+}
+.pkmn.pkmn-119-seaking:before {
+    content: "\f212";
+}
+.pkmn.pkmn-120-staryu-shiny:before {
+    content: "\f213";
+}
+.pkmn.pkmn-120-staryu:before {
+    content: "\f214";
+}
+.pkmn.pkmn-121-starmie-shiny:before {
+    content: "\f215";
+}
+.pkmn.pkmn-121-starmie:before {
+    content: "\f216";
+}
+.pkmn.pkmn-122-mrmime-shiny:before {
+    content: "\f217";
+}
+.pkmn.pkmn-122-mrmime:before {
+    content: "\f218";
+}
+.pkmn.pkmn-123-scyther-shiny:before {
+    content: "\f219";
+}
+.pkmn.pkmn-123-scyther:before {
+    content: "\f21a";
+}
+.pkmn.pkmn-124-jynx-shiny:before {
+    content: "\f21b";
+}
+.pkmn.pkmn-124-jynx:before {
+    content: "\f21c";
+}
+.pkmn.pkmn-125-electabuzz-shiny:before {
+    content: "\f21d";
+}
+.pkmn.pkmn-125-electabuzz:before {
+    content: "\f21e";
+}
+.pkmn.pkmn-126-magmar-shiny:before {
+    content: "\f21f";
+}
+.pkmn.pkmn-126-magmar:before {
+    content: "\f220";
+}
+.pkmn.pkmn-127-pinsir-shiny:before {
+    content: "\f221";
+}
+.pkmn.pkmn-127-pinsir:before {
+    content: "\f222";
+}
+.pkmn.pkmn-128-tauros-shiny:before {
+    content: "\f223";
+}
+.pkmn.pkmn-128-tauros:before {
+    content: "\f224";
+}
+.pkmn.pkmn-129-magikarp-shiny:before {
+    content: "\f225";
+}
+.pkmn.pkmn-129-magikarp:before {
+    content: "\f226";
+}
+.pkmn.pkmn-130-gyarados-shiny:before {
+    content: "\f227";
+}
+.pkmn.pkmn-130-gyarados:before {
+    content: "\f228";
+}
+.pkmn.pkmn-131-lapras-shiny:before {
+    content: "\f229";
+}
+.pkmn.pkmn-131-lapras:before {
+    content: "\f22a";
+}
+.pkmn.pkmn-132-ditto-shiny:before {
+    content: "\f22b";
+}
+.pkmn.pkmn-132-ditto:before {
+    content: "\f22c";
+}
+.pkmn.pkmn-133-eevee-shiny:before {
+    content: "\f22d";
+}
+.pkmn.pkmn-133-eevee:before {
+    content: "\f22e";
+}
+.pkmn.pkmn-134-vaporeon-shiny:before {
+    content: "\f22f";
+}
+.pkmn.pkmn-134-vaporeon:before {
+    content: "\f230";
+}
+.pkmn.pkmn-135-jolteon-shiny:before {
+    content: "\f231";
+}
+.pkmn.pkmn-135-jolteon:before {
+    content: "\f232";
+}
+.pkmn.pkmn-136-flareon-shiny:before {
+    content: "\f233";
+}
+.pkmn.pkmn-136-flareon:before {
+    content: "\f234";
+}
+.pkmn.pkmn-137-porygon-shiny:before {
+    content: "\f235";
+}
+.pkmn.pkmn-137-porygon:before {
+    content: "\f236";
+}
+.pkmn.pkmn-138-omanyte-shiny:before {
+    content: "\f237";
+}
+.pkmn.pkmn-138-omanyte:before {
+    content: "\f238";
+}
+.pkmn.pkmn-139-omastar-shiny:before {
+    content: "\f239";
+}
+.pkmn.pkmn-139-omastar:before {
+    content: "\f23a";
+}
+.pkmn.pkmn-141-kabuto-shiny:before {
+    content: "\f23b";
+}
+.pkmn.pkmn-141-kabuto:before {
+    content: "\f23c";
+}
+.pkmn.pkmn-141-kabutops-shiny:before {
+    content: "\f23d";
+}
+.pkmn.pkmn-141-kabutops:before {
+    content: "\f23e";
+}
+.pkmn.pkmn-142-aerodactyl-shiny:before {
+    content: "\f23f";
+}
+.pkmn.pkmn-142-aerodactyl:before {
+    content: "\f240";
+}
+.pkmn.pkmn-143-snorlax-shiny:before {
+    content: "\f241";
+}
+.pkmn.pkmn-143-snorlax:before {
+    content: "\f242";
+}
+.pkmn.pkmn-144-articuno-shiny:before {
+    content: "\f243";
+}
+.pkmn.pkmn-144-articuno:before {
+    content: "\f244";
+}
+.pkmn.pkmn-145-zapdos-shiny:before {
+    content: "\f245";
+}
+.pkmn.pkmn-145-zapdos:before {
+    content: "\f246";
+}
+.pkmn.pkmn-146-moltres-shiny:before {
+    content: "\f247";
+}
+.pkmn.pkmn-146-moltres:before {
+    content: "\f248";
+}
+.pkmn.pkmn-147-dratini-shiny:before {
+    content: "\f249";
+}
+.pkmn.pkmn-147-dratini:before {
+    content: "\f24a";
+}
+.pkmn.pkmn-148-dragonair-shiny:before {
+    content: "\f24b";
+}
+.pkmn.pkmn-148-dragonair:before {
+    content: "\f24c";
+}
+.pkmn.pkmn-149-dragonite-shiny:before {
+    content: "\f24d";
+}
+.pkmn.pkmn-149-dragonite:before {
+    content: "\f24e";
+}
+.pkmn.pkmn-150-mewtwo-shiny:before {
+    content: "\f24f";
+}
+.pkmn.pkmn-150-mewtwo:before {
+    content: "\f250";
+}
+.pkmn.pkmn-151-mew-shiny:before {
+    content: "\f251";
+}
+.pkmn.pkmn-151-mew:before {
+    content: "\f252";
+}
+.pkmn.pkmn-152-chikorita-shiny:before {
+    content: "\f253";
+}
+.pkmn.pkmn-152-chikorita:before {
+    content: "\f254";
+}
+.pkmn.pkmn-153-bayleef-shiny:before {
+    content: "\f255";
+}
+.pkmn.pkmn-153-bayleef:before {
+    content: "\f256";
+}
+.pkmn.pkmn-154-meganium-shiny:before {
+    content: "\f257";
+}
+.pkmn.pkmn-154-meganium:before {
+    content: "\f258";
+}
+.pkmn.pkmn-155-cyndaquil-shiny:before {
+    content: "\f259";
+}
+.pkmn.pkmn-155-cyndaquil:before {
+    content: "\f25a";
+}
+.pkmn.pkmn-156-quilava-shiny:before {
+    content: "\f25b";
+}
+.pkmn.pkmn-156-quilava:before {
+    content: "\f25c";
+}
+.pkmn.pkmn-157-typhlosion-shiny:before {
+    content: "\f25d";
+}
+.pkmn.pkmn-157-typhlosion:before {
+    content: "\f25e";
+}
+.pkmn.pkmn-158-totodile-shiny:before {
+    content: "\f25f";
+}
+.pkmn.pkmn-158-totodile:before {
+    content: "\f260";
+}
+.pkmn.pkmn-159-croconaw-shiny:before {
+    content: "\f261";
+}
+.pkmn.pkmn-159-croconaw:before {
+    content: "\f262";
+}
+.pkmn.pkmn-160-feraligatr-shiny:before {
+    content: "\f263";
+}
+.pkmn.pkmn-160-feraligatr:before {
+    content: "\f264";
+}
+.pkmn.pkmn-161-sentret-shiny:before {
+    content: "\f265";
+}
+.pkmn.pkmn-161-sentret:before {
+    content: "\f266";
+}
+.pkmn.pkmn-162-furret-shiny:before {
+    content: "\f267";
+}
+.pkmn.pkmn-162-furret:before {
+    content: "\f268";
+}
+.pkmn.pkmn-163-hoothoot-shiny:before {
+    content: "\f269";
+}
+.pkmn.pkmn-163-hoothoot:before {
+    content: "\f26a";
+}
+.pkmn.pkmn-164-noctowl-shiny:before {
+    content: "\f26b";
+}
+.pkmn.pkmn-164-noctowl:before {
+    content: "\f26c";
+}
+.pkmn.pkmn-165-ledyba-shiny:before {
+    content: "\f26d";
+}
+.pkmn.pkmn-165-ledyba:before {
+    content: "\f26e";
+}
+.pkmn.pkmn-166-ledian-shiny:before {
+    content: "\f26f";
+}
+.pkmn.pkmn-166-ledian:before {
+    content: "\f270";
+}
+.pkmn.pkmn-167-spinarak-shiny:before {
+    content: "\f271";
+}
+.pkmn.pkmn-167-spinarak:before {
+    content: "\f272";
+}
+.pkmn.pkmn-168-ariados-shiny:before {
+    content: "\f273";
+}
+.pkmn.pkmn-168-ariados:before {
+    content: "\f274";
+}
+.pkmn.pkmn-169-crobat-shiny:before {
+    content: "\f275";
+}
+.pkmn.pkmn-169-crobat:before {
+    content: "\f276";
+}
+.pkmn.pkmn-170-chinchou-shiny:before {
+    content: "\f277";
+}
+.pkmn.pkmn-170-chinchou:before {
+    content: "\f278";
+}
+.pkmn.pkmn-171-lanturn-shiny:before {
+    content: "\f279";
+}
+.pkmn.pkmn-171-lanturn:before {
+    content: "\f27a";
+}
+.pkmn.pkmn-172-pichu-shiny:before {
+    content: "\f27b";
+}
+.pkmn.pkmn-172-pichu:before {
+    content: "\f27c";
+}
+.pkmn.pkmn-173-cleffa-shiny:before {
+    content: "\f27d";
+}
+.pkmn.pkmn-173-cleffa:before {
+    content: "\f27e";
+}
+.pkmn.pkmn-174-igglybuff-shiny:before {
+    content: "\f27f";
+}
+.pkmn.pkmn-174-igglybuff:before {
+    content: "\f280";
+}
+.pkmn.pkmn-175-togepi-shiny:before {
+    content: "\f281";
+}
+.pkmn.pkmn-175-togepi:before {
+    content: "\f282";
+}
+.pkmn.pkmn-176-togetic-shiny:before {
+    content: "\f283";
+}
+.pkmn.pkmn-176-togetic:before {
+    content: "\f284";
+}
+.pkmn.pkmn-177-natu-shiny:before {
+    content: "\f285";
+}
+.pkmn.pkmn-177-natu:before {
+    content: "\f286";
+}
+.pkmn.pkmn-178-xatu-shiny:before {
+    content: "\f287";
+}
+.pkmn.pkmn-178-xatu:before {
+    content: "\f288";
+}
+.pkmn.pkmn-179-mareep-shiny:before {
+    content: "\f289";
+}
+.pkmn.pkmn-179-mareep:before {
+    content: "\f28a";
+}
+.pkmn.pkmn-180-flaaffy-shiny:before {
+    content: "\f28b";
+}
+.pkmn.pkmn-180-flaaffy:before {
+    content: "\f28c";
+}
+.pkmn.pkmn-181-ampharos-shiny:before {
+    content: "\f28d";
+}
+.pkmn.pkmn-181-ampharos:before {
+    content: "\f28e";
+}
+.pkmn.pkmn-182-bellossom-shiny:before {
+    content: "\f28f";
+}
+.pkmn.pkmn-182-bellossom:before {
+    content: "\f290";
+}
+.pkmn.pkmn-183-marill-shiny:before {
+    content: "\f291";
+}
+.pkmn.pkmn-183-marill:before {
+    content: "\f292";
+}
+.pkmn.pkmn-184-azumarill-shiny:before {
+    content: "\f293";
+}
+.pkmn.pkmn-184-azumarill:before {
+    content: "\f294";
+}
+.pkmn.pkmn-185-sudowoodo-shiny:before {
+    content: "\f295";
+}
+.pkmn.pkmn-185-sudowoodo:before {
+    content: "\f296";
+}
+.pkmn.pkmn-186-politoed-shiny:before {
+    content: "\f297";
+}
+.pkmn.pkmn-186-politoed:before {
+    content: "\f298";
+}
+.pkmn.pkmn-187-hoppip-shiny:before {
+    content: "\f299";
+}
+.pkmn.pkmn-187-hoppip:before {
+    content: "\f29a";
+}
+.pkmn.pkmn-188-skiploom-shiny:before {
+    content: "\f29b";
+}
+.pkmn.pkmn-188-skiploom:before {
+    content: "\f29c";
+}
+.pkmn.pkmn-189-jumpluff-shiny:before {
+    content: "\f29d";
+}
+.pkmn.pkmn-189-jumpluff:before {
+    content: "\f29e";
+}
+.pkmn.pkmn-190-aipom-shiny:before {
+    content: "\f29f";
+}
+.pkmn.pkmn-190-aipom:before {
+    content: "\f2a0";
+}
+.pkmn.pkmn-191-sunkern-shiny:before {
+    content: "\f2a1";
+}
+.pkmn.pkmn-191-sunkern:before {
+    content: "\f2a2";
+}
+.pkmn.pkmn-192-sunflora-shiny:before {
+    content: "\f2a3";
+}
+.pkmn.pkmn-192-sunflora:before {
+    content: "\f2a4";
+}
+.pkmn.pkmn-193-yanma-shiny:before {
+    content: "\f2a5";
+}
+.pkmn.pkmn-193-yanma:before {
+    content: "\f2a6";
+}
+.pkmn.pkmn-194-wooper-shiny:before {
+    content: "\f2a7";
+}
+.pkmn.pkmn-194-wooper:before {
+    content: "\f2a8";
+}
+.pkmn.pkmn-195-quagsire-shiny:before {
+    content: "\f2a9";
+}
+.pkmn.pkmn-195-quagsire:before {
+    content: "\f2aa";
+}
+.pkmn.pkmn-196-espeon-shiny:before {
+    content: "\f2ab";
+}
+.pkmn.pkmn-196-espeon:before {
+    content: "\f2ac";
+}
+.pkmn.pkmn-197-umbreon-shiny:before {
+    content: "\f2ad";
+}
+.pkmn.pkmn-197-umbreon:before {
+    content: "\f2ae";
+}
+.pkmn.pkmn-198-murkrow-shiny:before {
+    content: "\f2af";
+}
+.pkmn.pkmn-198-murkrow:before {
+    content: "\f2b0";
+}
+.pkmn.pkmn-199-slowking-shiny:before {
+    content: "\f2b1";
+}
+.pkmn.pkmn-199-slowking:before {
+    content: "\f2b2";
+}
+.pkmn.pkmn-200-misdreavus-shiny:before {
+    content: "\f2b3";
+}
+.pkmn.pkmn-200-misdreavus:before {
+    content: "\f2b4";
+}
+.pkmn.pkmn-201-unown-a-shiny:before {
+    content: "\f2b5";
+}
+.pkmn.pkmn-201-unown-a:before {
+    content: "\f2b6";
+}
+.pkmn.pkmn-201-unown-b-shiny:before {
+    content: "\f2b7";
+}
+.pkmn.pkmn-201-unown-b:before {
+    content: "\f2b8";
+}
+.pkmn.pkmn-201-unown-c-shiny:before {
+    content: "\f2b9";
+}
+.pkmn.pkmn-201-unown-c:before {
+    content: "\f2ba";
+}
+.pkmn.pkmn-201-unown-d-shiny:before {
+    content: "\f2bb";
+}
+.pkmn.pkmn-201-unown-d:before {
+    content: "\f2bc";
+}
+.pkmn.pkmn-201-unown-e-shiny:before {
+    content: "\f2bd";
+}
+.pkmn.pkmn-201-unown-e:before {
+    content: "\f2be";
+}
+.pkmn.pkmn-201-unown-exclamation-shiny:before {
+    content: "\f2bf";
+}
+.pkmn.pkmn-201-unown-exclamation:before {
+    content: "\f2c0";
+}
+.pkmn.pkmn-201-unown-f-shiny:before {
+    content: "\f2c1";
+}
+.pkmn.pkmn-201-unown-f:before {
+    content: "\f2c2";
+}
+.pkmn.pkmn-201-unown-g-shiny:before {
+    content: "\f2c3";
+}
+.pkmn.pkmn-201-unown-g:before {
+    content: "\f2c4";
+}
+.pkmn.pkmn-201-unown-h-shiny:before {
+    content: "\f2c5";
+}
+.pkmn.pkmn-201-unown-h:before {
+    content: "\f2c6";
+}
+.pkmn.pkmn-201-unown-i-shiny:before {
+    content: "\f2c7";
+}
+.pkmn.pkmn-201-unown-i:before {
+    content: "\f2c8";
+}
+.pkmn.pkmn-201-unown-j-shiny:before {
+    content: "\f2c9";
+}
+.pkmn.pkmn-201-unown-j:before {
+    content: "\f2ca";
+}
+.pkmn.pkmn-201-unown-k-shiny:before {
+    content: "\f2cb";
+}
+.pkmn.pkmn-201-unown-k:before {
+    content: "\f2cc";
+}
+.pkmn.pkmn-201-unown-l-shiny:before {
+    content: "\f2cd";
+}
+.pkmn.pkmn-201-unown-l:before {
+    content: "\f2ce";
+}
+.pkmn.pkmn-201-unown-m-shiny:before {
+    content: "\f2cf";
+}
+.pkmn.pkmn-201-unown-m:before {
+    content: "\f2d0";
+}
+.pkmn.pkmn-201-unown-n-shiny:before {
+    content: "\f2d1";
+}
+.pkmn.pkmn-201-unown-n:before {
+    content: "\f2d2";
+}
+.pkmn.pkmn-201-unown-o-shiny:before {
+    content: "\f2d3";
+}
+.pkmn.pkmn-201-unown-o:before {
+    content: "\f2d4";
+}
+.pkmn.pkmn-201-unown-p-shiny:before {
+    content: "\f2d5";
+}
+.pkmn.pkmn-201-unown-p:before {
+    content: "\f2d6";
+}
+.pkmn.pkmn-201-unown-q-shiny:before {
+    content: "\f2d7";
+}
+.pkmn.pkmn-201-unown-q:before {
+    content: "\f2d8";
+}
+.pkmn.pkmn-201-unown-question-shiny:before {
+    content: "\f2d9";
+}
+.pkmn.pkmn-201-unown-question:before {
+    content: "\f2da";
+}
+.pkmn.pkmn-201-unown-r-shiny:before {
+    content: "\f2db";
+}
+.pkmn.pkmn-201-unown-r:before {
+    content: "\f2dc";
+}
+.pkmn.pkmn-201-unown-s-shiny:before {
+    content: "\f2dd";
+}
+.pkmn.pkmn-201-unown-s:before {
+    content: "\f2de";
+}
+.pkmn.pkmn-201-unown-t-shiny:before {
+    content: "\f2df";
+}
+.pkmn.pkmn-201-unown-t:before {
+    content: "\f2e0";
+}
+.pkmn.pkmn-201-unown-u-shiny:before {
+    content: "\f2e1";
+}
+.pkmn.pkmn-201-unown-u:before {
+    content: "\f2e2";
+}
+.pkmn.pkmn-201-unown-v-shiny:before {
+    content: "\f2e3";
+}
+.pkmn.pkmn-201-unown-v:before {
+    content: "\f2e4";
+}
+.pkmn.pkmn-201-unown-w-shiny:before {
+    content: "\f2e5";
+}
+.pkmn.pkmn-201-unown-w:before {
+    content: "\f2e6";
+}
+.pkmn.pkmn-201-unown-x-shiny:before {
+    content: "\f2e7";
+}
+.pkmn.pkmn-201-unown-x:before {
+    content: "\f2e8";
+}
+.pkmn.pkmn-201-unown-y-shiny:before {
+    content: "\f2e9";
+}
+.pkmn.pkmn-201-unown-y:before {
+    content: "\f2ea";
+}
+.pkmn.pkmn-201-unown-z-shiny:before {
+    content: "\f2eb";
+}
+.pkmn.pkmn-201-unown-z:before {
+    content: "\f2ec";
+}
+.pkmn.pkmn-202-wobbuffet-shiny:before {
+    content: "\f2ed";
+}
+.pkmn.pkmn-202-wobbuffet:before {
+    content: "\f2ee";
+}
+.pkmn.pkmn-203-girafarig-shiny:before {
+    content: "\f2ef";
+}
+.pkmn.pkmn-203-girafarig:before {
+    content: "\f2f0";
+}
+.pkmn.pkmn-204-pineco-shiny:before {
+    content: "\f2f1";
+}
+.pkmn.pkmn-204-pineco:before {
+    content: "\f2f2";
+}
+.pkmn.pkmn-205-forretress-shiny:before {
+    content: "\f2f3";
+}
+.pkmn.pkmn-205-forretress:before {
+    content: "\f2f4";
+}
+.pkmn.pkmn-206-dunsparce-shiny:before {
+    content: "\f2f5";
+}
+.pkmn.pkmn-206-dunsparce:before {
+    content: "\f2f6";
+}
+.pkmn.pkmn-207-gligar-shiny:before {
+    content: "\f2f7";
+}
+.pkmn.pkmn-207-gligar:before {
+    content: "\f2f8";
+}
+.pkmn.pkmn-208-steelix-shiny:before {
+    content: "\f2f9";
+}
+.pkmn.pkmn-208-steelix:before {
+    content: "\f2fa";
+}
+.pkmn.pkmn-209-snubbull-shiny:before {
+    content: "\f2fb";
+}
+.pkmn.pkmn-209-snubbull:before {
+    content: "\f2fc";
+}
+.pkmn.pkmn-210-granbull-shiny:before {
+    content: "\f2fd";
+}
+.pkmn.pkmn-210-granbull:before {
+    content: "\f2fe";
+}
+.pkmn.pkmn-211-qwilfish-shiny:before {
+    content: "\f2ff";
+}
+.pkmn.pkmn-211-qwilfish:before {
+    content: "\f300";
+}
+.pkmn.pkmn-212-scizor-shiny:before {
+    content: "\f301";
+}
+.pkmn.pkmn-212-scizor:before {
+    content: "\f302";
+}
+.pkmn.pkmn-213-shuckle-shiny:before {
+    content: "\f303";
+}
+.pkmn.pkmn-213-shuckle:before {
+    content: "\f304";
+}
+.pkmn.pkmn-214-heracross-shiny:before {
+    content: "\f305";
+}
+.pkmn.pkmn-214-heracross:before {
+    content: "\f306";
+}
+.pkmn.pkmn-215-sneasel-shiny:before {
+    content: "\f307";
+}
+.pkmn.pkmn-215-sneasel:before {
+    content: "\f308";
+}
+.pkmn.pkmn-216-teddiursa-shiny:before {
+    content: "\f309";
+}
+.pkmn.pkmn-216-teddiursa:before {
+    content: "\f30a";
+}
+.pkmn.pkmn-217-ursaring-shiny:before {
+    content: "\f30b";
+}
+.pkmn.pkmn-217-ursaring:before {
+    content: "\f30c";
+}
+.pkmn.pkmn-218-slugma-shiny:before {
+    content: "\f30d";
+}
+.pkmn.pkmn-218-slugma:before {
+    content: "\f30e";
+}
+.pkmn.pkmn-219-magcargo-shiny:before {
+    content: "\f30f";
+}
+.pkmn.pkmn-219-magcargo:before {
+    content: "\f310";
+}
+.pkmn.pkmn-220-swinub-shiny:before {
+    content: "\f311";
+}
+.pkmn.pkmn-220-swinub:before {
+    content: "\f312";
+}
+.pkmn.pkmn-221-piloswine-shiny:before {
+    content: "\f313";
+}
+.pkmn.pkmn-221-piloswine:before {
+    content: "\f314";
+}
+.pkmn.pkmn-222-corsola-shiny:before {
+    content: "\f315";
+}
+.pkmn.pkmn-222-corsola:before {
+    content: "\f316";
+}
+.pkmn.pkmn-223-remoraid-shiny:before {
+    content: "\f317";
+}
+.pkmn.pkmn-223-remoraid:before {
+    content: "\f318";
+}
+.pkmn.pkmn-224-octillery-shiny:before {
+    content: "\f319";
+}
+.pkmn.pkmn-224-octillery:before {
+    content: "\f31a";
+}
+.pkmn.pkmn-225-delibird-shiny:before {
+    content: "\f31b";
+}
+.pkmn.pkmn-225-delibird:before {
+    content: "\f31c";
+}
+.pkmn.pkmn-226-mantine-shiny:before {
+    content: "\f31d";
+}
+.pkmn.pkmn-226-mantine:before {
+    content: "\f31e";
+}
+.pkmn.pkmn-227-skarmory-shiny:before {
+    content: "\f31f";
+}
+.pkmn.pkmn-227-skarmory:before {
+    content: "\f320";
+}
+.pkmn.pkmn-228-houndour-shiny:before {
+    content: "\f321";
+}
+.pkmn.pkmn-228-houndour:before {
+    content: "\f322";
+}
+.pkmn.pkmn-229-houndoom-shiny:before {
+    content: "\f323";
+}
+.pkmn.pkmn-229-houndoom:before {
+    content: "\f324";
+}
+.pkmn.pkmn-230-kingdra-shiny:before {
+    content: "\f325";
+}
+.pkmn.pkmn-230-kingdra:before {
+    content: "\f326";
+}
+.pkmn.pkmn-231-phanpy-shiny:before {
+    content: "\f327";
+}
+.pkmn.pkmn-231-phanpy:before {
+    content: "\f328";
+}
+.pkmn.pkmn-232-donphan-shiny:before {
+    content: "\f329";
+}
+.pkmn.pkmn-232-donphan:before {
+    content: "\f32a";
+}
+.pkmn.pkmn-233-porygon2-shiny:before {
+    content: "\f32b";
+}
+.pkmn.pkmn-233-porygon2:before {
+    content: "\f32c";
+}
+.pkmn.pkmn-234-stantler-shiny:before {
+    content: "\f32d";
+}
+.pkmn.pkmn-234-stantler:before {
+    content: "\f32e";
+}
+.pkmn.pkmn-235-smeargle-shiny:before {
+    content: "\f32f";
+}
+.pkmn.pkmn-235-smeargle:before {
+    content: "\f330";
+}
+.pkmn.pkmn-236-tyrogue-shiny:before {
+    content: "\f331";
+}
+.pkmn.pkmn-236-tyrogue:before {
+    content: "\f332";
+}
+.pkmn.pkmn-237-hitmontop-shiny:before {
+    content: "\f333";
+}
+.pkmn.pkmn-237-hitmontop:before {
+    content: "\f334";
+}
+.pkmn.pkmn-238-smoochum-shiny:before {
+    content: "\f335";
+}
+.pkmn.pkmn-238-smoochum:before {
+    content: "\f336";
+}
+.pkmn.pkmn-239-elekid-shiny:before {
+    content: "\f337";
+}
+.pkmn.pkmn-239-elekid:before {
+    content: "\f338";
+}
+.pkmn.pkmn-240-magby-shiny:before {
+    content: "\f339";
+}
+.pkmn.pkmn-240-magby:before {
+    content: "\f33a";
+}
+.pkmn.pkmn-241-miltank-shiny:before {
+    content: "\f33b";
+}
+.pkmn.pkmn-241-miltank:before {
+    content: "\f33c";
+}
+.pkmn.pkmn-242-blissey-shiny:before {
+    content: "\f33d";
+}
+.pkmn.pkmn-242-blissey:before {
+    content: "\f33e";
+}
+.pkmn.pkmn-243-raikou-shiny:before {
+    content: "\f33f";
+}
+.pkmn.pkmn-243-raikou:before {
+    content: "\f340";
+}
+.pkmn.pkmn-244-entei-shiny:before {
+    content: "\f341";
+}
+.pkmn.pkmn-244-entei:before {
+    content: "\f342";
+}
+.pkmn.pkmn-245-suicune-shiny:before {
+    content: "\f343";
+}
+.pkmn.pkmn-245-suicune:before {
+    content: "\f344";
+}
+.pkmn.pkmn-246-larvitar-shiny:before {
+    content: "\f345";
+}
+.pkmn.pkmn-246-larvitar:before {
+    content: "\f346";
+}
+.pkmn.pkmn-247-pupitar-shiny:before {
+    content: "\f347";
+}
+.pkmn.pkmn-247-pupitar:before {
+    content: "\f348";
+}
+.pkmn.pkmn-248-tyranitar-shiny:before {
+    content: "\f349";
+}
+.pkmn.pkmn-248-tyranitar:before {
+    content: "\f34a";
+}
+.pkmn.pkmn-249-lugia-shiny:before {
+    content: "\f34b";
+}
+.pkmn.pkmn-249-lugia:before {
+    content: "\f34c";
+}
+.pkmn.pkmn-250-ho-oh-shiny:before {
+    content: "\f34d";
+}
+.pkmn.pkmn-250-ho-oh:before {
+    content: "\f34e";
+}
+.pkmn.pkmn-251-celebi-shiny:before {
+    content: "\f34f";
+}
+.pkmn.pkmn-251-celebi:before {
+    content: "\f350";
+}
+.pkmn.pkmn-252-treecko-shiny:before {
+    content: "\f351";
+}
+.pkmn.pkmn-252-treecko:before {
+    content: "\f352";
+}
+.pkmn.pkmn-253-grovyle-shiny:before {
+    content: "\f353";
+}
+.pkmn.pkmn-253-grovyle:before {
+    content: "\f354";
+}
+.pkmn.pkmn-254-sceptille-shiny:before {
+    content: "\f355";
+}
+.pkmn.pkmn-254-sceptille:before {
+    content: "\f356";
+}
+.pkmn.pkmn-255-torchic-shiny:before {
+    content: "\f357";
+}
+.pkmn.pkmn-255-torchic:before {
+    content: "\f358";
+}
+.pkmn.pkmn-256-combusken-shiny:before {
+    content: "\f359";
+}
+.pkmn.pkmn-256-combusken:before {
+    content: "\f35a";
+}
+.pkmn.pkmn-257-blaziken-shiny:before {
+    content: "\f35b";
+}
+.pkmn.pkmn-257-blaziken:before {
+    content: "\f35c";
+}
+.pkmn.pkmn-258-mudkip-shiny:before {
+    content: "\f35d";
+}
+.pkmn.pkmn-258-mudkip:before {
+    content: "\f35e";
+}
+.pkmn.pkmn-259-marshtomp-shiny:before {
+    content: "\f35f";
+}
+.pkmn.pkmn-259-marshtomp:before {
+    content: "\f360";
+}
+.pkmn.pkmn-260-swampert-shiny:before {
+    content: "\f361";
+}
+.pkmn.pkmn-260-swampert:before {
+    content: "\f362";
+}
+.pkmn.pkmn-261-poochyena-shiny:before {
+    content: "\f363";
+}
+.pkmn.pkmn-261-poochyena:before {
+    content: "\f364";
+}
+.pkmn.pkmn-262-mightyena-shiny:before {
+    content: "\f365";
+}
+.pkmn.pkmn-262-mightyena:before {
+    content: "\f366";
+}
+.pkmn.pkmn-263-zigzagoon-shiny:before {
+    content: "\f367";
+}
+.pkmn.pkmn-263-zigzagoon:before {
+    content: "\f368";
+}
+.pkmn.pkmn-264-linoone-shiny:before {
+    content: "\f369";
+}
+.pkmn.pkmn-264-linoone:before {
+    content: "\f36a";
+}
+.pkmn.pkmn-265-wurmple-shiny:before {
+    content: "\f36b";
+}
+.pkmn.pkmn-265-wurmple:before {
+    content: "\f36c";
+}
+.pkmn.pkmn-266-silcoon-shiny:before {
+    content: "\f36d";
+}
+.pkmn.pkmn-266-silcoon:before {
+    content: "\f36e";
+}
+.pkmn.pkmn-267-beautifly-shiny:before {
+    content: "\f36f";
+}
+.pkmn.pkmn-267-beautifly:before {
+    content: "\f370";
+}
+.pkmn.pkmn-268-cascoon-shiny:before {
+    content: "\f371";
+}
+.pkmn.pkmn-268-cascoon:before {
+    content: "\f372";
+}
+.pkmn.pkmn-269-dustox-shiny:before {
+    content: "\f373";
+}
+.pkmn.pkmn-269-dustox:before {
+    content: "\f374";
+}
+.pkmn.pkmn-270-lotad-shiny:before {
+    content: "\f375";
+}
+.pkmn.pkmn-270-lotad:before {
+    content: "\f376";
+}
+.pkmn.pkmn-271-lombre-shiny:before {
+    content: "\f377";
+}
+.pkmn.pkmn-271-lombre:before {
+    content: "\f378";
+}
+.pkmn.pkmn-272-ludicolo-shiny:before {
+    content: "\f379";
+}
+.pkmn.pkmn-272-ludicolo:before {
+    content: "\f37a";
+}
+.pkmn.pkmn-273-seedot-shiny:before {
+    content: "\f37b";
+}
+.pkmn.pkmn-273-seedot:before {
+    content: "\f37c";
+}
+.pkmn.pkmn-274-nuzleaf-shiny:before {
+    content: "\f37d";
+}
+.pkmn.pkmn-274-nuzleaf:before {
+    content: "\f37e";
+}
+.pkmn.pkmn-275-shiftry-shiny:before {
+    content: "\f37f";
+}
+.pkmn.pkmn-275-shiftry:before {
+    content: "\f380";
+}
+.pkmn.pkmn-276-taillow-shiny:before {
+    content: "\f381";
+}
+.pkmn.pkmn-276-taillow:before {
+    content: "\f382";
+}
+.pkmn.pkmn-277-swellow-shiny:before {
+    content: "\f383";
+}
+.pkmn.pkmn-277-swellow:before {
+    content: "\f384";
+}
+.pkmn.pkmn-278-wingull-shiny:before {
+    content: "\f385";
+}
+.pkmn.pkmn-278-wingull:before {
+    content: "\f386";
+}
+.pkmn.pkmn-279-pelipper-shiny:before {
+    content: "\f387";
+}
+.pkmn.pkmn-279-pelipper:before {
+    content: "\f388";
+}
+.pkmn.pkmn-280-ralts-shiny:before {
+    content: "\f389";
+}
+.pkmn.pkmn-280-ralts:before {
+    content: "\f38a";
+}
+.pkmn.pkmn-281-kirlia-shiny:before {
+    content: "\f38b";
+}
+.pkmn.pkmn-281-kirlia:before {
+    content: "\f38c";
+}
+.pkmn.pkmn-282-gardevoir-shiny:before {
+    content: "\f38d";
+}
+.pkmn.pkmn-282-gardevoir:before {
+    content: "\f38e";
+}
+.pkmn.pkmn-283-surskit-shiny:before {
+    content: "\f38f";
+}
+.pkmn.pkmn-283-surskit:before {
+    content: "\f390";
+}
+.pkmn.pkmn-284-masquerain-shiny:before {
+    content: "\f391";
+}
+.pkmn.pkmn-284-masquerain:before {
+    content: "\f392";
+}
+.pkmn.pkmn-285-shroomish-shiny:before {
+    content: "\f393";
+}
+.pkmn.pkmn-285-shroomish:before {
+    content: "\f394";
+}
+.pkmn.pkmn-286-breloom-shiny:before {
+    content: "\f395";
+}
+.pkmn.pkmn-286-breloom:before {
+    content: "\f396";
+}
+.pkmn.pkmn-287-slakoth-shiny:before {
+    content: "\f397";
+}
+.pkmn.pkmn-287-slakoth:before {
+    content: "\f398";
+}
+.pkmn.pkmn-288-vigoroth-shiny:before {
+    content: "\f399";
+}
+.pkmn.pkmn-288-vigoroth:before {
+    content: "\f39a";
+}
+.pkmn.pkmn-289-slaking-shiny:before {
+    content: "\f39b";
+}
+.pkmn.pkmn-289-slaking:before {
+    content: "\f39c";
+}
+.pkmn.pkmn-290-nincada-shiny:before {
+    content: "\f39d";
+}
+.pkmn.pkmn-290-nincada:before {
+    content: "\f39e";
+}
+.pkmn.pkmn-291-ninjask-shiny:before {
+    content: "\f39f";
+}
+.pkmn.pkmn-291-ninjask:before {
+    content: "\f3a0";
+}
+.pkmn.pkmn-292-shedinja-shiny:before {
+    content: "\f3a1";
+}
+.pkmn.pkmn-292-shedinja:before {
+    content: "\f3a2";
+}
+.pkmn.pkmn-293-whismur-shiny:before {
+    content: "\f3a3";
+}
+.pkmn.pkmn-293-whismur:before {
+    content: "\f3a4";
+}
+.pkmn.pkmn-294-loudred-shiny:before {
+    content: "\f3a5";
+}
+.pkmn.pkmn-294-loudred:before {
+    content: "\f3a6";
+}
+.pkmn.pkmn-295-exploud-shiny:before {
+    content: "\f3a7";
+}
+.pkmn.pkmn-295-exploud:before {
+    content: "\f3a8";
+}
+.pkmn.pkmn-296-makuhita-shiny:before {
+    content: "\f3a9";
+}
+.pkmn.pkmn-296-makuhita:before {
+    content: "\f3aa";
+}
+.pkmn.pkmn-297-hariyama-shiny:before {
+    content: "\f3ab";
+}
+.pkmn.pkmn-297-hariyama:before {
+    content: "\f3ac";
+}
+.pkmn.pkmn-298-azurill-shiny:before {
+    content: "\f3ad";
+}
+.pkmn.pkmn-298-azurill:before {
+    content: "\f3ae";
+}
+.pkmn.pkmn-299-nosepass-shiny:before {
+    content: "\f3af";
+}
+.pkmn.pkmn-299-nosepass:before {
+    content: "\f3b0";
+}
+.pkmn.pkmn-300-skitty-shiny:before {
+    content: "\f3b1";
+}
+.pkmn.pkmn-300-skitty:before {
+    content: "\f3b2";
+}
+.pkmn.pkmn-301-delcatty-shiny:before {
+    content: "\f3b3";
+}
+.pkmn.pkmn-301-delcatty:before {
+    content: "\f3b4";
+}
+.pkmn.pkmn-302-sableye-shiny:before {
+    content: "\f3b5";
+}
+.pkmn.pkmn-302-sableye:before {
+    content: "\f3b6";
+}
+.pkmn.pkmn-303-mawile-shiny:before {
+    content: "\f3b7";
+}
+.pkmn.pkmn-303-mawile:before {
+    content: "\f3b8";
+}
+.pkmn.pkmn-304-aron-shiny:before {
+    content: "\f3b9";
+}
+.pkmn.pkmn-304-aron:before {
+    content: "\f3ba";
+}
+.pkmn.pkmn-305-lairon-shiny:before {
+    content: "\f3bb";
+}
+.pkmn.pkmn-305-lairon:before {
+    content: "\f3bc";
+}
+.pkmn.pkmn-306-aggron-shiny:before {
+    content: "\f3bd";
+}
+.pkmn.pkmn-306-aggron:before {
+    content: "\f3be";
+}
+.pkmn.pkmn-307-meditite-shiny:before {
+    content: "\f3bf";
+}
+.pkmn.pkmn-307-meditite:before {
+    content: "\f3c0";
+}
+.pkmn.pkmn-308-medicham-shiny:before {
+    content: "\f3c1";
+}
+.pkmn.pkmn-308-medicham:before {
+    content: "\f3c2";
+}
+.pkmn.pkmn-309-electrike-shiny:before {
+    content: "\f3c3";
+}
+.pkmn.pkmn-309-electrike:before {
+    content: "\f3c4";
+}
+.pkmn.pkmn-310-manectric-shiny:before {
+    content: "\f3c5";
+}
+.pkmn.pkmn-310-manectric:before {
+    content: "\f3c6";
+}
+.pkmn.pkmn-311-plusle-shiny:before {
+    content: "\f3c7";
+}
+.pkmn.pkmn-311-plusle:before {
+    content: "\f3c8";
+}
+.pkmn.pkmn-312-minun-shiny:before {
+    content: "\f3c9";
+}
+.pkmn.pkmn-312-minun:before {
+    content: "\f3ca";
+}
+.pkmn.pkmn-313-volbeat-shiny:before {
+    content: "\f3cb";
+}
+.pkmn.pkmn-313-volbeat:before {
+    content: "\f3cc";
+}
+.pkmn.pkmn-314-illumise-shiny:before {
+    content: "\f3cd";
+}
+.pkmn.pkmn-314-illumise:before {
+    content: "\f3ce";
+}
+.pkmn.pkmn-315-roselia-shiny:before {
+    content: "\f3cf";
+}
+.pkmn.pkmn-315-roselia:before {
+    content: "\f3d0";
+}
+.pkmn.pkmn-316-gulpin-shiny:before {
+    content: "\f3d1";
+}
+.pkmn.pkmn-316-gulpin:before {
+    content: "\f3d2";
+}
+.pkmn.pkmn-317-swalot-shiny:before {
+    content: "\f3d3";
+}
+.pkmn.pkmn-317-swalot:before {
+    content: "\f3d4";
+}
+.pkmn.pkmn-318-carvanha-shiny:before {
+    content: "\f3d5";
+}
+.pkmn.pkmn-318-carvanha:before {
+    content: "\f3d6";
+}
+.pkmn.pkmn-319-sharpedo-shiny:before {
+    content: "\f3d7";
+}
+.pkmn.pkmn-319-sharpedo:before {
+    content: "\f3d8";
+}
+.pkmn.pkmn-320-wailmer-shiny:before {
+    content: "\f3d9";
+}
+.pkmn.pkmn-320-wailmer:before {
+    content: "\f3da";
+}
+.pkmn.pkmn-321-wailord-shiny:before {
+    content: "\f3db";
+}
+.pkmn.pkmn-321-wailord:before {
+    content: "\f3dc";
+}
+.pkmn.pkmn-322-numel-shiny:before {
+    content: "\f3dd";
+}
+.pkmn.pkmn-322-numel:before {
+    content: "\f3de";
+}
+.pkmn.pkmn-323-camerupt-shiny:before {
+    content: "\f3df";
+}
+.pkmn.pkmn-323-camerupt:before {
+    content: "\f3e0";
+}
+.pkmn.pkmn-324-torkoal-shiny:before {
+    content: "\f3e1";
+}
+.pkmn.pkmn-324-torkoal:before {
+    content: "\f3e2";
+}
+.pkmn.pkmn-325-spoink-shiny:before {
+    content: "\f3e3";
+}
+.pkmn.pkmn-325-spoink:before {
+    content: "\f3e4";
+}
+.pkmn.pkmn-326-grumpig-shiny:before {
+    content: "\f3e5";
+}
+.pkmn.pkmn-326-grumpig:before {
+    content: "\f3e6";
+}
+.pkmn.pkmn-327-spinda-1-shiny:before {
+    content: "\f3e7";
+}
+.pkmn.pkmn-327-spinda-1:before {
+    content: "\f3e8";
+}
+.pkmn.pkmn-327-spinda-2-shiny:before {
+    content: "\f3e9";
+}
+.pkmn.pkmn-327-spinda-2:before {
+    content: "\f3ea";
+}
+.pkmn.pkmn-327-spinda-3-shiny:before {
+    content: "\f3eb";
+}
+.pkmn.pkmn-327-spinda-3:before {
+    content: "\f3ec";
+}
+.pkmn.pkmn-327-spinda-4-shiny:before {
+    content: "\f3ed";
+}
+.pkmn.pkmn-327-spinda-4:before {
+    content: "\f3ee";
+}
+.pkmn.pkmn-327-spinda-5-shiny:before {
+    content: "\f3ef";
+}
+.pkmn.pkmn-327-spinda-5:before {
+    content: "\f3f0";
+}
+.pkmn.pkmn-327-spinda-6-shiny:before {
+    content: "\f3f1";
+}
+.pkmn.pkmn-327-spinda-6:before {
+    content: "\f3f2";
+}
+.pkmn.pkmn-327-spinda-7-shiny:before {
+    content: "\f3f3";
+}
+.pkmn.pkmn-327-spinda-7:before {
+    content: "\f3f4";
+}
+.pkmn.pkmn-327-spinda-8-shiny:before {
+    content: "\f3f5";
+}
+.pkmn.pkmn-327-spinda-8:before {
+    content: "\f3f6";
+}
+.pkmn.pkmn-327-spinda-9-shiny:before {
+    content: "\f3f7";
+}
+.pkmn.pkmn-327-spinda-9:before {
+    content: "\f3f8";
+}
+.pkmn.pkmn-328-trapinch-shiny:before {
+    content: "\f3f9";
+}
+.pkmn.pkmn-328-trapinch:before {
+    content: "\f3fa";
+}
+.pkmn.pkmn-329-vibrava-shiny:before {
+    content: "\f3fb";
+}
+.pkmn.pkmn-329-vibrava:before {
+    content: "\f3fc";
+}
+.pkmn.pkmn-330-flygon-shiny:before {
+    content: "\f3fd";
+}
+.pkmn.pkmn-330-flygon:before {
+    content: "\f3fe";
+}
+.pkmn.pkmn-331-cacnea-shiny:before {
+    content: "\f3ff";
+}
+.pkmn.pkmn-331-cacnea:before {
+    content: "\f400";
+}
+.pkmn.pkmn-332-cacturne-shiny:before {
+    content: "\f401";
+}
+.pkmn.pkmn-332-cacturne:before {
+    content: "\f402";
+}
+.pkmn.pkmn-333-swablu-shiny:before {
+    content: "\f403";
+}
+.pkmn.pkmn-333-swablu:before {
+    content: "\f404";
+}
+.pkmn.pkmn-334-altaria-shiny:before {
+    content: "\f405";
+}
+.pkmn.pkmn-334-altaria:before {
+    content: "\f406";
+}
+.pkmn.pkmn-335-zangoose-shiny:before {
+    content: "\f407";
+}
+.pkmn.pkmn-335-zangoose:before {
+    content: "\f408";
+}
+.pkmn.pkmn-336-seviper-shiny:before {
+    content: "\f409";
+}
+.pkmn.pkmn-336-seviper:before {
+    content: "\f40a";
+}
+.pkmn.pkmn-337-lunatone-shiny:before {
+    content: "\f40b";
+}
+.pkmn.pkmn-337-lunatone:before {
+    content: "\f40c";
+}
+.pkmn.pkmn-338-solrock-shiny:before {
+    content: "\f40d";
+}
+.pkmn.pkmn-338-solrock:before {
+    content: "\f40e";
+}
+.pkmn.pkmn-339-barboach-shiny:before {
+    content: "\f40f";
+}
+.pkmn.pkmn-339-barboach:before {
+    content: "\f410";
+}
+.pkmn.pkmn-340-whiscash-shiny:before {
+    content: "\f411";
+}
+.pkmn.pkmn-340-whiscash:before {
+    content: "\f412";
+}
+.pkmn.pkmn-341-corphish-shiny:before {
+    content: "\f413";
+}
+.pkmn.pkmn-341-corphish:before {
+    content: "\f414";
+}
+.pkmn.pkmn-342-crawdaunt-shiny:before {
+    content: "\f415";
+}
+.pkmn.pkmn-342-crawdaunt:before {
+    content: "\f416";
+}
+.pkmn.pkmn-343-baltoy-shiny:before {
+    content: "\f417";
+}
+.pkmn.pkmn-343-baltoy:before {
+    content: "\f418";
+}
+.pkmn.pkmn-344-clavdol-shiny:before {
+    content: "\f419";
+}
+.pkmn.pkmn-344-clavdol:before {
+    content: "\f41a";
+}
+.pkmn.pkmn-345-lileep-shiny:before {
+    content: "\f41b";
+}
+.pkmn.pkmn-345-lileep:before {
+    content: "\f41c";
+}
+.pkmn.pkmn-346-cradily-shiny:before {
+    content: "\f41d";
+}
+.pkmn.pkmn-346-cradily:before {
+    content: "\f41e";
+}
+.pkmn.pkmn-347-anorith-shiny:before {
+    content: "\f41f";
+}
+.pkmn.pkmn-347-anorith:before {
+    content: "\f420";
+}
+.pkmn.pkmn-348-armaldo-shiny:before {
+    content: "\f421";
+}
+.pkmn.pkmn-348-armaldo:before {
+    content: "\f422";
+}
+.pkmn.pkmn-349-feebas-shiny:before {
+    content: "\f423";
+}
+.pkmn.pkmn-349-feebas:before {
+    content: "\f424";
+}
+.pkmn.pkmn-350-milotic-shiny:before {
+    content: "\f425";
+}
+.pkmn.pkmn-350-milotic:before {
+    content: "\f426";
+}
+.pkmn.pkmn-351-castform-normal-shiny:before {
+    content: "\f427";
+}
+.pkmn.pkmn-351-castform-normal:before {
+    content: "\f428";
+}
+.pkmn.pkmn-351-castform-rainy:before {
+    content: "\f429";
+}
+.pkmn.pkmn-351-castform-snowy:before {
+    content: "\f42a";
+}
+.pkmn.pkmn-351-castform-sunny:before {
+    content: "\f42b";
+}
+.pkmn.pkmn-352-kecleon-shiny:before {
+    content: "\f42c";
+}
+.pkmn.pkmn-352-kecleon:before {
+    content: "\f42d";
+}
+.pkmn.pkmn-353-shuppet-shiny:before {
+    content: "\f42e";
+}
+.pkmn.pkmn-353-shuppet:before {
+    content: "\f42f";
+}
+.pkmn.pkmn-354-banette-shiny:before {
+    content: "\f430";
+}
+.pkmn.pkmn-354-banette:before {
+    content: "\f431";
+}
+.pkmn.pkmn-355-duskull-shiny:before {
+    content: "\f432";
+}
+.pkmn.pkmn-355-duskull:before {
+    content: "\f433";
+}
+.pkmn.pkmn-356-dusclops-shiny:before {
+    content: "\f434";
+}
+.pkmn.pkmn-356-dusclops:before {
+    content: "\f435";
+}
+.pkmn.pkmn-357-tropius-shiny:before {
+    content: "\f436";
+}
+.pkmn.pkmn-357-tropius:before {
+    content: "\f437";
+}
+.pkmn.pkmn-358-chimecho-shiny:before {
+    content: "\f438";
+}
+.pkmn.pkmn-358-chimecho:before {
+    content: "\f439";
+}
+.pkmn.pkmn-359-absol-shiny:before {
+    content: "\f43a";
+}
+.pkmn.pkmn-359-absol:before {
+    content: "\f43b";
+}
+.pkmn.pkmn-360-wynaut-shiny:before {
+    content: "\f43c";
+}
+.pkmn.pkmn-360-wynaut:before {
+    content: "\f43d";
+}
+.pkmn.pkmn-361-snorunt-shiny:before {
+    content: "\f43e";
+}
+.pkmn.pkmn-361-snorunt:before {
+    content: "\f43f";
+}
+.pkmn.pkmn-362-glalie-shiny:before {
+    content: "\f440";
+}
+.pkmn.pkmn-362-glalie:before {
+    content: "\f441";
+}
+.pkmn.pkmn-363-spheal-shiny:before {
+    content: "\f442";
+}
+.pkmn.pkmn-363-spheal:before {
+    content: "\f443";
+}
+.pkmn.pkmn-364-sealeo-shiny:before {
+    content: "\f444";
+}
+.pkmn.pkmn-364-sealeo:before {
+    content: "\f445";
+}
+.pkmn.pkmn-365-walrein-shiny:before {
+    content: "\f446";
+}
+.pkmn.pkmn-365-walrein:before {
+    content: "\f447";
+}
+.pkmn.pkmn-366-clamperl-shiny:before {
+    content: "\f448";
+}
+.pkmn.pkmn-366-clamperl:before {
+    content: "\f449";
+}
+.pkmn.pkmn-367-huntail-shiny:before {
+    content: "\f44a";
+}
+.pkmn.pkmn-367-huntail:before {
+    content: "\f44b";
+}
+.pkmn.pkmn-368-gorebyss-shiny:before {
+    content: "\f44c";
+}
+.pkmn.pkmn-368-gorebyss:before {
+    content: "\f44d";
+}
+.pkmn.pkmn-369-relicanth-shiny:before {
+    content: "\f44e";
+}
+.pkmn.pkmn-369-relicanth:before {
+    content: "\f44f";
+}
+.pkmn.pkmn-370-luvdisc-shiny:before {
+    content: "\f450";
+}
+.pkmn.pkmn-370-luvdisc:before {
+    content: "\f451";
+}
+.pkmn.pkmn-371-bagon-shiny:before {
+    content: "\f452";
+}
+.pkmn.pkmn-371-bagon:before {
+    content: "\f453";
+}
+.pkmn.pkmn-372-shelgon-shiny:before {
+    content: "\f454";
+}
+.pkmn.pkmn-372-shelgon:before {
+    content: "\f455";
+}
+.pkmn.pkmn-373-salamence-shiny:before {
+    content: "\f456";
+}
+.pkmn.pkmn-373-salamence:before {
+    content: "\f457";
+}
+.pkmn.pkmn-374-beldum-shiny:before {
+    content: "\f458";
+}
+.pkmn.pkmn-374-beldum:before {
+    content: "\f459";
+}
+.pkmn.pkmn-375-metang-shiny:before {
+    content: "\f45a";
+}
+.pkmn.pkmn-375-metang:before {
+    content: "\f45b";
+}
+.pkmn.pkmn-376-metagross-shiny:before {
+    content: "\f45c";
+}
+.pkmn.pkmn-376-metagross:before {
+    content: "\f45d";
+}
+.pkmn.pkmn-377-regirock-shiny:before {
+    content: "\f45e";
+}
+.pkmn.pkmn-377-regirock:before {
+    content: "\f45f";
+}
+.pkmn.pkmn-378-regice-shiny:before {
+    content: "\f460";
+}
+.pkmn.pkmn-378-regice:before {
+    content: "\f461";
+}
+.pkmn.pkmn-379-registeel-shiny:before {
+    content: "\f462";
+}
+.pkmn.pkmn-379-registeel:before {
+    content: "\f463";
+}
+.pkmn.pkmn-380-latias-shiny:before {
+    content: "\f464";
+}
+.pkmn.pkmn-380-latias:before {
+    content: "\f465";
+}
+.pkmn.pkmn-381-latios-shiny:before {
+    content: "\f466";
+}
+.pkmn.pkmn-381-latios:before {
+    content: "\f467";
+}
+.pkmn.pkmn-382-kyogre-shiny:before {
+    content: "\f468";
+}
+.pkmn.pkmn-382-kyogre:before {
+    content: "\f469";
+}
+.pkmn.pkmn-383-groudon-shiny:before {
+    content: "\f46a";
+}
+.pkmn.pkmn-383-groudon:before {
+    content: "\f46b";
+}
+.pkmn.pkmn-384-rayquaza-shiny:before {
+    content: "\f46c";
+}
+.pkmn.pkmn-384-rayquaza:before {
+    content: "\f46d";
+}
+.pkmn.pkmn-385-jirachi-shiny:before {
+    content: "\f46e";
+}
+.pkmn.pkmn-385-jirachi:before {
+    content: "\f46f";
+}
+.pkmn.pkmn-386-deoxys-attack-shiny:before {
+    content: "\f470";
+}
+.pkmn.pkmn-386-deoxys-attack:before {
+    content: "\f471";
+}
+.pkmn.pkmn-386-deoxys-defense-shiny:before {
+    content: "\f472";
+}
+.pkmn.pkmn-386-deoxys-defense:before {
+    content: "\f473";
+}
+.pkmn.pkmn-386-deoxys-normal-shiny:before {
+    content: "\f474";
+}
+.pkmn.pkmn-386-deoxys-normal:before {
+    content: "\f475";
+}
+.pkmn.pkmn-386-deoxys-speed-shiny:before {
+    content: "\f476";
+}
+.pkmn.pkmn-386-deoxys-speed:before {
+    content: "\f477";
+}
+.pkmn.pkmn-387-turtwig-shiny:before {
+    content: "\f478";
+}
+.pkmn.pkmn-387-turtwig:before {
+    content: "\f479";
+}
+.pkmn.pkmn-388-grotle-shiny:before {
+    content: "\f47a";
+}
+.pkmn.pkmn-388-grotle:before {
+    content: "\f47b";
+}
+.pkmn.pkmn-389-torterra-shiny:before {
+    content: "\f47c";
+}
+.pkmn.pkmn-389-torterra:before {
+    content: "\f47d";
+}
+.pkmn.pkmn-390-chimchar-shiny:before {
+    content: "\f47e";
+}
+.pkmn.pkmn-390-chimchar:before {
+    content: "\f47f";
+}
+.pkmn.pkmn-391-monferno-shiny:before {
+    content: "\f480";
+}
+.pkmn.pkmn-391-monferno:before {
+    content: "\f481";
+}
+.pkmn.pkmn-392-infernape-shiny:before {
+    content: "\f482";
+}
+.pkmn.pkmn-392-infernape:before {
+    content: "\f483";
+}
+.pkmn.pkmn-393-piplup-shiny:before {
+    content: "\f484";
+}
+.pkmn.pkmn-393-piplup:before {
+    content: "\f485";
+}
+.pkmn.pkmn-394-prinplup-shiny:before {
+    content: "\f486";
+}
+.pkmn.pkmn-394-prinplup:before {
+    content: "\f487";
+}
+.pkmn.pkmn-395-empoleon-shiny:before {
+    content: "\f488";
+}
+.pkmn.pkmn-395-empoleon:before {
+    content: "\f489";
+}
+.pkmn.pkmn-396-starly-shiny:before {
+    content: "\f48a";
+}
+.pkmn.pkmn-396-starly:before {
+    content: "\f48b";
+}
+.pkmn.pkmn-397-staravia-shiny:before {
+    content: "\f48c";
+}
+.pkmn.pkmn-397-staravia:before {
+    content: "\f48d";
+}
+.pkmn.pkmn-398-staraptor-shiny:before {
+    content: "\f48e";
+}
+.pkmn.pkmn-398-staraptor:before {
+    content: "\f48f";
+}
+.pkmn.pkmn-399-bidoof-shiny:before {
+    content: "\f490";
+}
+.pkmn.pkmn-399-bidoof:before {
+    content: "\f491";
+}
+.pkmn.pkmn-400-bibarel-shiny:before {
+    content: "\f492";
+}
+.pkmn.pkmn-400-bibarel:before {
+    content: "\f493";
+}
+.pkmn.pkmn-401-kricketot-shiny:before {
+    content: "\f494";
+}
+.pkmn.pkmn-401-kricketot:before {
+    content: "\f495";
+}
+.pkmn.pkmn-402-kricketune-shiny:before {
+    content: "\f496";
+}
+.pkmn.pkmn-402-kricketune:before {
+    content: "\f497";
+}
+.pkmn.pkmn-403-shinx-shiny:before {
+    content: "\f498";
+}
+.pkmn.pkmn-403-shinx:before {
+    content: "\f499";
+}
+.pkmn.pkmn-404-luxio-shiny:before {
+    content: "\f49a";
+}
+.pkmn.pkmn-404-luxio:before {
+    content: "\f49b";
+}
+.pkmn.pkmn-405-luxray-shiny:before {
+    content: "\f49c";
+}
+.pkmn.pkmn-405-luxray:before {
+    content: "\f49d";
+}
+.pkmn.pkmn-406-budew-shiny:before {
+    content: "\f49e";
+}
+.pkmn.pkmn-406-budew:before {
+    content: "\f49f";
+}
+.pkmn.pkmn-407-roserade-shiny:before {
+    content: "\f4a0";
+}
+.pkmn.pkmn-407-roserade:before {
+    content: "\f4a1";
+}
+.pkmn.pkmn-408-cranidos-shiny:before {
+    content: "\f4a2";
+}
+.pkmn.pkmn-408-cranidos:before {
+    content: "\f4a3";
+}
+.pkmn.pkmn-409-rampardos-shiny:before {
+    content: "\f4a4";
+}
+.pkmn.pkmn-409-rampardos:before {
+    content: "\f4a5";
+}
+.pkmn.pkmn-410-shieldon-shiny:before {
+    content: "\f4a6";
+}
+.pkmn.pkmn-410-shieldon:before {
+    content: "\f4a7";
+}
+.pkmn.pkmn-411-bastiodon-shiny:before {
+    content: "\f4a8";
+}
+.pkmn.pkmn-411-bastiodon:before {
+    content: "\f4a9";
+}
+.pkmn.pkmn-412-burmy-plant-shiny:before {
+    content: "\f4aa";
+}
+.pkmn.pkmn-412-burmy-plant:before {
+    content: "\f4ab";
+}
+.pkmn.pkmn-412-burmy-sandy-shiny:before {
+    content: "\f4ac";
+}
+.pkmn.pkmn-412-burmy-sandy:before {
+    content: "\f4ad";
+}
+.pkmn.pkmn-412-burmy-trash-shiny:before {
+    content: "\f4ae";
+}
+.pkmn.pkmn-412-burmy-trash:before {
+    content: "\f4af";
+}
+.pkmn.pkmn-413-wormadam-plant-shiny:before {
+    content: "\f4b0";
+}
+.pkmn.pkmn-413-wormadam-plant:before {
+    content: "\f4b1";
+}
+.pkmn.pkmn-413-wormadam-sandy-shiny:before {
+    content: "\f4b2";
+}
+.pkmn.pkmn-413-wormadam-sandy:before {
+    content: "\f4b3";
+}
+.pkmn.pkmn-413-wormadam-trash-shiny:before {
+    content: "\f4b4";
+}
+.pkmn.pkmn-413-wormadam-trash:before {
+    content: "\f4b5";
+}
+.pkmn.pkmn-414-mothim-shiny:before {
+    content: "\f4b6";
+}
+.pkmn.pkmn-414-mothim:before {
+    content: "\f4b7";
+}
+.pkmn.pkmn-415-combee-shiny:before {
+    content: "\f4b8";
+}
+.pkmn.pkmn-415-combee:before {
+    content: "\f4b9";
+}
+.pkmn.pkmn-416-vespiquen-shiny:before {
+    content: "\f4ba";
+}
+.pkmn.pkmn-416-vespiquen:before {
+    content: "\f4bb";
+}
+.pkmn.pkmn-417-pachirisu-shiny:before {
+    content: "\f4bc";
+}
+.pkmn.pkmn-417-pachirisu:before {
+    content: "\f4bd";
+}
+.pkmn.pkmn-418-buizel-shiny:before {
+    content: "\f4be";
+}
+.pkmn.pkmn-418-buizel:before {
+    content: "\f4bf";
+}
+.pkmn.pkmn-419-floatzel-shiny:before {
+    content: "\f4c0";
+}
+.pkmn.pkmn-419-floatzel:before {
+    content: "\f4c1";
+}
+.pkmn.pkmn-420-cherubi-shiny:before {
+    content: "\f4c2";
+}
+.pkmn.pkmn-420-cherubi:before {
+    content: "\f4c3";
+}
+.pkmn.pkmn-421-cherim-overcast-shiny:before {
+    content: "\f4c4";
+}
+.pkmn.pkmn-421-cherim-overcast:before {
+    content: "\f4c5";
+}
+.pkmn.pkmn-421-cherim-sunshine-shiny:before {
+    content: "\f4c6";
+}
+.pkmn.pkmn-421-cherim-sunshine:before {
+    content: "\f4c7";
+}
+.pkmn.pkmn-422-shellos-east-shiny:before {
+    content: "\f4c8";
+}
+.pkmn.pkmn-422-shellos-east:before {
+    content: "\f4c9";
+}
+.pkmn.pkmn-422-shellos-west-shiny:before {
+    content: "\f4ca";
+}
+.pkmn.pkmn-422-shellos-west:before {
+    content: "\f4cb";
+}
+.pkmn.pkmn-423-gastrodon-east-shiny:before {
+    content: "\f4cc";
+}
+.pkmn.pkmn-423-gastrodon-east:before {
+    content: "\f4cd";
+}
+.pkmn.pkmn-423-gastrodon-west-shiny:before {
+    content: "\f4ce";
+}
+.pkmn.pkmn-423-gastrodon-west:before {
+    content: "\f4cf";
+}
+.pkmn.pkmn-424-ambipom-shiny:before {
+    content: "\f4d0";
+}
+.pkmn.pkmn-424-ambipom:before {
+    content: "\f4d1";
+}
+.pkmn.pkmn-425-drifloon-shiny:before {
+    content: "\f4d2";
+}
+.pkmn.pkmn-425-drifloon:before {
+    content: "\f4d3";
+}
+.pkmn.pkmn-426-drifblim-shiny:before {
+    content: "\f4d4";
+}
+.pkmn.pkmn-426-drifblim:before {
+    content: "\f4d5";
+}
+.pkmn.pkmn-427-buneary-shiny:before {
+    content: "\f4d6";
+}
+.pkmn.pkmn-427-buneary:before {
+    content: "\f4d7";
+}
+.pkmn.pkmn-428-lopunny-shiny:before {
+    content: "\f4d8";
+}
+.pkmn.pkmn-428-lopunny:before {
+    content: "\f4d9";
+}
+.pkmn.pkmn-429-mismagius-shiny:before {
+    content: "\f4da";
+}
+.pkmn.pkmn-429-mismagius:before {
+    content: "\f4db";
+}
+.pkmn.pkmn-430-honchkrow-shiny:before {
+    content: "\f4dc";
+}
+.pkmn.pkmn-430-honchkrow:before {
+    content: "\f4dd";
+}
+.pkmn.pkmn-431-glameow-shiny:before {
+    content: "\f4de";
+}
+.pkmn.pkmn-431-glameow:before {
+    content: "\f4df";
+}
+.pkmn.pkmn-432-purugly-shiny:before {
+    content: "\f4e0";
+}
+.pkmn.pkmn-432-purugly:before {
+    content: "\f4e1";
+}
+.pkmn.pkmn-433-chingling-shiny:before {
+    content: "\f4e2";
+}
+.pkmn.pkmn-433-chingling:before {
+    content: "\f4e3";
+}
+.pkmn.pkmn-434-stunky-shiny:before {
+    content: "\f4e4";
+}
+.pkmn.pkmn-434-stunky:before {
+    content: "\f4e5";
+}
+.pkmn.pkmn-435-skuntank-shiny:before {
+    content: "\f4e6";
+}
+.pkmn.pkmn-435-skuntank:before {
+    content: "\f4e7";
+}
+.pkmn.pkmn-436-bronzor-shiny:before {
+    content: "\f4e8";
+}
+.pkmn.pkmn-436-bronzor:before {
+    content: "\f4e9";
+}
+.pkmn.pkmn-437-bronzong-shiny:before {
+    content: "\f4ea";
+}
+.pkmn.pkmn-437-bronzong:before {
+    content: "\f4eb";
+}
+.pkmn.pkmn-438-bonsly-shiny:before {
+    content: "\f4ec";
+}
+.pkmn.pkmn-438-bonsly:before {
+    content: "\f4ed";
+}
+.pkmn.pkmn-439-mimejr-shiny:before {
+    content: "\f4ee";
+}
+.pkmn.pkmn-439-mimejr:before {
+    content: "\f4ef";
+}
+.pkmn.pkmn-440-happiny-shiny:before {
+    content: "\f4f0";
+}
+.pkmn.pkmn-440-happiny:before {
+    content: "\f4f1";
+}
+.pkmn.pkmn-441-chatot-shiny:before {
+    content: "\f4f2";
+}
+.pkmn.pkmn-441-chatot:before {
+    content: "\f4f3";
+}
+.pkmn.pkmn-442-spiritomb-shiny:before {
+    content: "\f4f4";
+}
+.pkmn.pkmn-442-spiritomb:before {
+    content: "\f4f5";
+}
+.pkmn.pkmn-443-gible-shiny:before {
+    content: "\f4f6";
+}
+.pkmn.pkmn-443-gible:before {
+    content: "\f4f7";
+}
+.pkmn.pkmn-444-gabite-shiny:before {
+    content: "\f4f8";
+}
+.pkmn.pkmn-444-gabite:before {
+    content: "\f4f9";
+}
+.pkmn.pkmn-445-garchomp-shiny:before {
+    content: "\f4fa";
+}
+.pkmn.pkmn-445-garchomp:before {
+    content: "\f4fb";
+}
+.pkmn.pkmn-446-munchlax-shiny:before {
+    content: "\f4fc";
+}
+.pkmn.pkmn-446-munchlax:before {
+    content: "\f4fd";
+}
+.pkmn.pkmn-447-riolu-shiny:before {
+    content: "\f4fe";
+}
+.pkmn.pkmn-447-riolu:before {
+    content: "\f4ff";
+}
+.pkmn.pkmn-448-lucario-shiny:before {
+    content: "\f500";
+}
+.pkmn.pkmn-448-lucario:before {
+    content: "\f501";
+}
+.pkmn.pkmn-449-hippopotas-f-shiny:before {
+    content: "\f502";
+}
+.pkmn.pkmn-449-hippopotas-f:before {
+    content: "\f503";
+}
+.pkmn.pkmn-449-hippopotas-m-shiny:before {
+    content: "\f504";
+}
+.pkmn.pkmn-449-hippopotas-m:before {
+    content: "\f505";
+}
+.pkmn.pkmn-450-hippowdon-f-shiny:before {
+    content: "\f506";
+}
+.pkmn.pkmn-450-hippowdon-f:before {
+    content: "\f507";
+}
+.pkmn.pkmn-450-hippowdon-m-shiny:before {
+    content: "\f508";
+}
+.pkmn.pkmn-450-hippowdon-m:before {
+    content: "\f509";
+}
+.pkmn.pkmn-451-skorupi-shiny:before {
+    content: "\f50a";
+}
+.pkmn.pkmn-451-skorupi:before {
+    content: "\f50b";
+}
+.pkmn.pkmn-452-drapion-shiny:before {
+    content: "\f50c";
+}
+.pkmn.pkmn-452-drapion:before {
+    content: "\f50d";
+}
+.pkmn.pkmn-453-croagunk-shiny:before {
+    content: "\f50e";
+}
+.pkmn.pkmn-453-croagunk:before {
+    content: "\f50f";
+}
+.pkmn.pkmn-454-toxicroak-shiny:before {
+    content: "\f510";
+}
+.pkmn.pkmn-454-toxicroak:before {
+    content: "\f511";
+}
+.pkmn.pkmn-455-carnivine-shiny:before {
+    content: "\f512";
+}
+.pkmn.pkmn-455-carnivine:before {
+    content: "\f513";
+}
+.pkmn.pkmn-456-finneon-shiny:before {
+    content: "\f514";
+}
+.pkmn.pkmn-456-finneon:before {
+    content: "\f515";
+}
+.pkmn.pkmn-457-lumineon-shiny:before {
+    content: "\f516";
+}
+.pkmn.pkmn-457-lumineon:before {
+    content: "\f517";
+}
+.pkmn.pkmn-458-mantyke-shiny:before {
+    content: "\f518";
+}
+.pkmn.pkmn-458-mantyke:before {
+    content: "\f519";
+}
+.pkmn.pkmn-459-snover-shiny:before {
+    content: "\f51a";
+}
+.pkmn.pkmn-459-snover:before {
+    content: "\f51b";
+}
+.pkmn.pkmn-460-abomasnow-shiny:before {
+    content: "\f51c";
+}
+.pkmn.pkmn-460-abomasnow:before {
+    content: "\f51d";
+}
+.pkmn.pkmn-461-weavile-shiny:before {
+    content: "\f51e";
+}
+.pkmn.pkmn-461-weavile:before {
+    content: "\f51f";
+}
+.pkmn.pkmn-462-magnezone-shiny:before {
+    content: "\f520";
+}
+.pkmn.pkmn-462-magnezone:before {
+    content: "\f521";
+}
+.pkmn.pkmn-463-lickilicky-shiny:before {
+    content: "\f522";
+}
+.pkmn.pkmn-463-lickilicky:before {
+    content: "\f523";
+}
+.pkmn.pkmn-464-rhyperior-shiny:before {
+    content: "\f524";
+}
+.pkmn.pkmn-464-rhyperior:before {
+    content: "\f525";
+}
+.pkmn.pkmn-465-tangrowth-shiny:before {
+    content: "\f526";
+}
+.pkmn.pkmn-465-tangrowth:before {
+    content: "\f527";
+}
+.pkmn.pkmn-466-electivire-shiny:before {
+    content: "\f528";
+}
+.pkmn.pkmn-466-electivire:before {
+    content: "\f529";
+}
+.pkmn.pkmn-467-magmortar-shiny:before {
+    content: "\f52a";
+}
+.pkmn.pkmn-467-magmortar:before {
+    content: "\f52b";
+}
+.pkmn.pkmn-468-togekiss-shiny:before {
+    content: "\f52c";
+}
+.pkmn.pkmn-468-togekiss:before {
+    content: "\f52d";
+}
+.pkmn.pkmn-469-yanmega-shiny:before {
+    content: "\f52e";
+}
+.pkmn.pkmn-469-yanmega:before {
+    content: "\f52f";
+}
+.pkmn.pkmn-470-leafeon-shiny:before {
+    content: "\f530";
+}
+.pkmn.pkmn-470-leafeon:before {
+    content: "\f531";
+}
+.pkmn.pkmn-471-glaceon-shiny:before {
+    content: "\f532";
+}
+.pkmn.pkmn-471-glaceon:before {
+    content: "\f533";
+}
+.pkmn.pkmn-472-gliscor-shiny:before {
+    content: "\f534";
+}
+.pkmn.pkmn-472-gliscor:before {
+    content: "\f535";
+}
+.pkmn.pkmn-473-mamoswine-shiny:before {
+    content: "\f536";
+}
+.pkmn.pkmn-473-mamoswine:before {
+    content: "\f537";
+}
+.pkmn.pkmn-474-porygon-z-shiny:before {
+    content: "\f538";
+}
+.pkmn.pkmn-474-porygon-z:before {
+    content: "\f539";
+}
+.pkmn.pkmn-475-gallade-shiny:before {
+    content: "\f53a";
+}
+.pkmn.pkmn-475-gallade:before {
+    content: "\f53b";
+}
+.pkmn.pkmn-476-probopass-shiny:before {
+    content: "\f53c";
+}
+.pkmn.pkmn-476-probopass:before {
+    content: "\f53d";
+}
+.pkmn.pkmn-477-dusknoir-shiny:before {
+    content: "\f53e";
+}
+.pkmn.pkmn-477-dusknoir:before {
+    content: "\f53f";
+}
+.pkmn.pkmn-478-froslass-shiny:before {
+    content: "\f540";
+}
+.pkmn.pkmn-478-froslass:before {
+    content: "\f541";
+}
+.pkmn.pkmn-479-rotom-fan-shiny:before {
+    content: "\f542";
+}
+.pkmn.pkmn-479-rotom-fan:before {
+    content: "\f543";
+}
+.pkmn.pkmn-479-rotom-frost-shiny:before {
+    content: "\f544";
+}
+.pkmn.pkmn-479-rotom-frost:before {
+    content: "\f545";
+}
+.pkmn.pkmn-479-rotom-heat-shiny:before {
+    content: "\f546";
+}
+.pkmn.pkmn-479-rotom-heat:before {
+    content: "\f547";
+}
+.pkmn.pkmn-479-rotom-mow-shiny:before {
+    content: "\f548";
+}
+.pkmn.pkmn-479-rotom-mow:before {
+    content: "\f549";
+}
+.pkmn.pkmn-479-rotom-shiny:before {
+    content: "\f54a";
+}
+.pkmn.pkmn-479-rotom-wash-shiny:before {
+    content: "\f54b";
+}
+.pkmn.pkmn-479-rotom-wash:before {
+    content: "\f54c";
+}
+.pkmn.pkmn-479-rotom:before {
+    content: "\f54d";
+}
+.pkmn.pkmn-480-uxie-shiny:before {
+    content: "\f54e";
+}
+.pkmn.pkmn-480-uxie:before {
+    content: "\f54f";
+}
+.pkmn.pkmn-481-mesprit-shiny:before {
+    content: "\f550";
+}
+.pkmn.pkmn-481-mesprit:before {
+    content: "\f551";
+}
+.pkmn.pkmn-482-azelf-shiny:before {
+    content: "\f552";
+}
+.pkmn.pkmn-482-azelf:before {
+    content: "\f553";
+}
+.pkmn.pkmn-483-dialga-shiny:before {
+    content: "\f554";
+}
+.pkmn.pkmn-483-dialga:before {
+    content: "\f555";
+}
+.pkmn.pkmn-484-palkia-shiny:before {
+    content: "\f556";
+}
+.pkmn.pkmn-484-palkia:before {
+    content: "\f557";
+}
+.pkmn.pkmn-485-heatran-shiny:before {
+    content: "\f558";
+}
+.pkmn.pkmn-485-heatran:before {
+    content: "\f559";
+}
+.pkmn.pkmn-486-regigigas-shiny:before {
+    content: "\f55a";
+}
+.pkmn.pkmn-486-regigigas:before {
+    content: "\f55b";
+}
+.pkmn.pkmn-487-giratina-altered-shiny:before {
+    content: "\f55c";
+}
+.pkmn.pkmn-487-giratina-altered:before {
+    content: "\f55d";
+}
+.pkmn.pkmn-487-giratina-origin-shiny:before {
+    content: "\f55e";
+}
+.pkmn.pkmn-487-giratina-origin:before {
+    content: "\f55f";
+}
+.pkmn.pkmn-488-cresselia-shiny:before {
+    content: "\f560";
+}
+.pkmn.pkmn-488-cresselia:before {
+    content: "\f561";
+}
+.pkmn.pkmn-489-phione-shiny:before {
+    content: "\f562";
+}
+.pkmn.pkmn-489-phione:before {
+    content: "\f563";
+}
+.pkmn.pkmn-490-manaphy-shiny:before {
+    content: "\f564";
+}
+.pkmn.pkmn-490-manaphy:before {
+    content: "\f565";
+}
+.pkmn.pkmn-491-darkrai-shiny:before {
+    content: "\f566";
+}
+.pkmn.pkmn-491-darkrai:before {
+    content: "\f567";
+}
+.pkmn.pkmn-492-shaymin-land-shiny:before {
+    content: "\f568";
+}
+.pkmn.pkmn-492-shaymin-land:before {
+    content: "\f569";
+}
+.pkmn.pkmn-492-shaymin-sky-shiny:before {
+    content: "\f56a";
+}
+.pkmn.pkmn-492-shaymin-sky:before {
+    content: "\f56b";
+}
+.pkmn.pkmn-493-arceus-bug:before {
+    content: "\f56c";
+}
+.pkmn.pkmn-493-arceus-dark:before {
+    content: "\f56d";
+}
+.pkmn.pkmn-493-arceus-dragon:before {
+    content: "\f56e";
+}
+.pkmn.pkmn-493-arceus-electric:before {
+    content: "\f56f";
+}
+.pkmn.pkmn-493-arceus-fairy:before {
+    content: "\f570";
+}
+.pkmn.pkmn-493-arceus-fighting:before {
+    content: "\f571";
+}
+.pkmn.pkmn-493-arceus-fire:before {
+    content: "\f572";
+}
+.pkmn.pkmn-493-arceus-flying:before {
+    content: "\f573";
+}
+.pkmn.pkmn-493-arceus-ghost:before {
+    content: "\f574";
+}
+.pkmn.pkmn-493-arceus-grass:before {
+    content: "\f575";
+}
+.pkmn.pkmn-493-arceus-ground:before {
+    content: "\f576";
+}
+.pkmn.pkmn-493-arceus-ice:before {
+    content: "\f577";
+}
+.pkmn.pkmn-493-arceus-normal-shiny:before {
+    content: "\f578";
+}
+.pkmn.pkmn-493-arceus-normal:before {
+    content: "\f579";
+}
+.pkmn.pkmn-493-arceus-poison:before {
+    content: "\f57a";
+}
+.pkmn.pkmn-493-arceus-psychic:before {
+    content: "\f57b";
+}
+.pkmn.pkmn-493-arceus-rock:before {
+    content: "\f57c";
+}
+.pkmn.pkmn-493-arceus-steel:before {
+    content: "\f57d";
+}
+.pkmn.pkmn-493-arceus-water:before {
+    content: "\f57e";
+}
+.pkmn.pkmn-494-victini:before {
+    content: "\f57f";
+}
+.pkmn.pkmn-495-snivy:before {
+    content: "\f580";
+}
+.pkmn.pkmn-496-servine:before {
+    content: "\f581";
+}
+.pkmn.pkmn-497-serperior:before {
+    content: "\f582";
+}
+.pkmn.pkmn-498-tepig:before {
+    content: "\f583";
+}
+.pkmn.pkmn-499-pignite:before {
+    content: "\f584";
+}
+.pkmn.pkmn-500-emboar:before {
+    content: "\f585";
+}
+.pkmn.pkmn-501-oshawott:before {
+    content: "\f586";
+}
+.pkmn.pkmn-502-dewott:before {
+    content: "\f587";
+}
+.pkmn.pkmn-503-samurott:before {
+    content: "\f588";
+}
+.pkmn.pkmn-504-patrat:before {
+    content: "\f589";
+}
+.pkmn.pkmn-505-watchog:before {
+    content: "\f58a";
+}
+.pkmn.pkmn-506-lillipup:before {
+    content: "\f58b";
+}
+.pkmn.pkmn-507-herdier:before {
+    content: "\f58c";
+}
+.pkmn.pkmn-508-stoutland:before {
+    content: "\f58d";
+}
+.pkmn.pkmn-509-purrloin:before {
+    content: "\f58e";
+}
+.pkmn.pkmn-510-liepard:before {
+    content: "\f58f";
+}
+.pkmn.pkmn-511-pansage:before {
+    content: "\f590";
+}
+.pkmn.pkmn-512-simisage:before {
+    content: "\f591";
+}
+.pkmn.pkmn-513-pansear:before {
+    content: "\f592";
+}
+.pkmn.pkmn-514-simisear:before {
+    content: "\f593";
+}
+.pkmn.pkmn-515-panpour:before {
+    content: "\f594";
+}
+.pkmn.pkmn-516-simipour:before {
+    content: "\f595";
+}
+.pkmn.pkmn-517-munna:before {
+    content: "\f596";
+}
+.pkmn.pkmn-518-musharna:before {
+    content: "\f597";
+}
+.pkmn.pkmn-519-pidove:before {
+    content: "\f598";
+}
+.pkmn.pkmn-520-tranquill:before {
+    content: "\f599";
+}
+.pkmn.pkmn-521-unfezant-female:before {
+    content: "\f59a";
+}
+.pkmn.pkmn-521-unfezant-male:before {
+    content: "\f59b";
+}
+.pkmn.pkmn-527-woobat:before {
+    content: "\f59c";
+}
+.pkmn.pkmn-528-swoobat:before {
+    content: "\f59d";
+}
+.pkmn.pkmn-535-tympole:before {
+    content: "\f59e";
+}
+.pkmn.pkmn-536-palpitoad:before {
+    content: "\f59f";
+}
+.pkmn.pkmn-537-seismitoad:before {
+    content: "\f5a0";
+}
+.pkmn.pkmn-548-petili:before {
+    content: "\f5a1";
+}
+.pkmn.pkmn-549-lilligant:before {
+    content: "\f5a2";
+}
+.pkmn.pkmn-590-foongus:before {
+    content: "\f5a3";
+}
+.pkmn.pkmn-591-amoonguss:before {
+    content: "\f5a4";
+}
+.pkmn.pkmn-592-frillish-f:before {
+    content: "\f5a5";
+}
+.pkmn.pkmn-592-frillish-m:before {
+    content: "\f5a6";
+}
+.pkmn.pkmn-593-jellicent-f:before {
+    content: "\f5a7";
+}
+.pkmn.pkmn-593-jellicent-m:before {
+    content: "\f5a8";
+}
+.pkmn.pkmn-599-klink:before {
+    content: "\f5a9";
+}
+.pkmn.pkmn-600-klang:before {
+    content: "\f5aa";
+}
+.pkmn.pkmn-601-klinklang:before {
+    content: "\f5ab";
+}
+.pkmn.pkmn-607-litwick:before {
+    content: "\f5ac";
+}
+.pkmn.pkmn-608-lampent:before {
+    content: "\f5ad";
+}
+.pkmn.pkmn-609-chandelure:before {
+    content: "\f5ae";
+}
+.pkmn.pkmn-808-meltan-shiny:before {
+    content: "\f5af";
+}
+.pkmn.pkmn-808-meltan:before {
+    content: "\f5b0";
+}
+.pkmn.pkmn-809-melmetal-shiny:before {
+    content: "\f5b1";
+}
+.pkmn.pkmn-809-melmetal:before {
+    content: "\f5b2";
+}
