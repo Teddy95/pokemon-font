@@ -2,7 +2,6 @@
     "name": "pokemon-font",
     "version": "1.0.0",
     "description": "Pokémon SVG Icon Webfont",
-    "main": "index.js",
     "scripts": {
         "generate": "icon-font-generator icons/*.svg -o dist -n PokemonSVGIconWebfont -f ./dist/webfonts --csspath ./dist/css/pokemon-iconfont.css --cssfontsurl ../webfonts -p pkmn --selector .pkmn",
         "serve": "http-server ./dist -p 8080 -o",
