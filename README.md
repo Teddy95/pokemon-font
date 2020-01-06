@@ -14,7 +14,7 @@ Include Stylesheet in your HTML
 
 ### Use Icons
 
-Use the css class `pkmn` and additional a class of this scheme: `pkmn-<3 digit pokemon nr.>-<name>((-<form>)(-shiny))`
+Use the css class `pkmn` and additional a class of this scheme: `pkmn-<3 digit pokemon nr.>-<name>(-<form>)`
 
 - `()`: Optionals
 - `<>`: Variables
